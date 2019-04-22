@@ -1,0 +1,49 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MovimentoJogador : MonoBehaviour
+{
+    Transform tr;
+    public float velY;
+    public bool movimentarSeVertical = true;
+
+    float ObtemPosicaoX(float antes)
+    {
+#if UNITY_STANDALONE
+        if (Input.GetMouseButton(0))
+            return Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
+        else
+            return antes;
+#endif
+
+        var toques = Input.touches;
+
+        if (toques.Length == 0)
+            return antes;
+
+        return toques[0].position.x;
+    }
+    
+    void Awake()
+    {
+        tr = GetComponent<Transform>();
+    }
+
+    void Update()
+    {
+        var pos = tr.position;
+
+        pos.x = ObtemPosicaoX(pos.x);
+
+        if (movimentarSeVertical)
+            pos.y += velY * Time.deltaTime;
+
+        tr.position = pos;
+    }
+
+    public void DefinirMovimentarSeVertical(bool def)
+    {
+        movimentarSeVertical = def;
+    }
+}
