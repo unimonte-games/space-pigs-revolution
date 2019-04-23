@@ -247,6 +247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tamanhoSetor: 30
+  larguraPrev: 0
   previsualizar: 1
 --- !u!1001 &301094411
 PrefabInstance:
@@ -325,6 +326,51 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 6.1295114
       objectReference: {fileID: 0}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 135843477}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: distancia
+      value: 14.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Cor_Fora.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Cor_Fora.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Cor_Fora.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Cor_Fora.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Cor_Dentro.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Cor_Dentro.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Cor_Dentro.b
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: m_Enabled
@@ -390,51 +436,6 @@ PrefabInstance:
       propertyPath: prever_Cor.b
       value: 0.81276405
       objectReference: {fileID: 0}
-    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 135843477}
-    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: distancia
-      value: 14.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Cor_Fora.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Cor_Fora.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Cor_Fora.a
-      value: 0.5019608
-      objectReference: {fileID: 0}
-    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Cor_Fora.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Cor_Dentro.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Cor_Dentro.a
-      value: 0.5019608
-      objectReference: {fileID: 0}
-    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Cor_Dentro.b
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f9aba78367b63d419c5f9605398913c, type: 3}
 --- !u!4 &301094412 stripped
@@ -443,85 +444,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 301094411}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &412046223
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 412046224}
-  - component: {fileID: 412046225}
-  m_Layer: 0
-  m_Name: ativador pergunta
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &412046224
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 412046223}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 970181530}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &412046225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 412046223}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 568d14cefe79e164cb86598420ad0a45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  distancia: 7.3
-  alvo_tr: {fileID: 135843477}
-  evt:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1775838424}
-        m_MethodName: TornarSeVisivel
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 1
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 135843478}
-        m_MethodName: DefinirMovimentarSeVertical
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  evtAoSair:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  prever_Cor_Fora: {r: 0, g: 0, b: 1, a: 0.5019608}
-  prever_Cor_Dentro: {r: 0, g: 1, b: 0, a: 0.5019608}
 --- !u!1001 &463331063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -589,65 +511,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 270
       objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+    - target: {fileID: 3452126917554867632, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
-      propertyPath: aceleracaoFrequenciaEfeito
+      propertyPath: destrutivel
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+    - target: {fileID: 3452126917554867632, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
-      propertyPath: aceleracaoIntensidadeEfeito.x
+      propertyPath: distanciaCamera
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452126917554867632, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: previsualizar
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: movimentoY
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: frequenciaEfeito
-      value: 6.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: intensidadeEfeito.x
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_CirculoRaio
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Tamanho
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Cor.r
-      value: 0.3695642
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Cor.g
-      value: 0.026872585
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Cor.b
-      value: 0.99466574
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: aceleracaoMovimentoY
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Intervalo
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
@@ -734,20 +611,65 @@ PrefabInstance:
       propertyPath: evtAoSair.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 3452126917554867632, guid: 5f9aba78367b63d419c5f9605398913c,
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
-      propertyPath: destrutivel
+      propertyPath: aceleracaoFrequenciaEfeito
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3452126917554867632, guid: 5f9aba78367b63d419c5f9605398913c,
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
-      propertyPath: distanciaCamera
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3452126917554867632, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: previsualizar
+      propertyPath: aceleracaoIntensidadeEfeito.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: movimentoY
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: frequenciaEfeito
+      value: 6.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: intensidadeEfeito.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_CirculoRaio
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Tamanho
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Cor.r
+      value: 0.3695642
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Cor.g
+      value: 0.026872585
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Cor.b
+      value: 0.99466574
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: aceleracaoMovimentoY
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Intervalo
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f9aba78367b63d419c5f9605398913c, type: 3}
@@ -838,37 +760,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1826778859}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &970181529
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 970181530}
-  m_Layer: 0
-  m_Name: setor ativador pergunta
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &970181530
+--- !u!4 &970181530 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 7744319854431860196, guid: e15ca46733368f143b68740c0bddbe49,
+    type: 3}
+  m_PrefabInstance: {fileID: 7744319854588051070}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 970181529}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 90, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 412046224}
-  m_Father: {fileID: 295031587}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1028881136
 GameObject:
   m_ObjectHideFlags: 0
@@ -978,51 +875,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 6.1295075
       objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: movimentoY
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Tamanho
-      value: 128
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_CirculoRaio
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: movimentoX
-      value: -0.26
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: frequenciaEfeito
-      value: 0.91
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: intensidadeEfeito.y
-      value: -6.38
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: intensidadeEfeito.x
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: aceleracaoMovimentoY
-      value: 0.63
-      objectReference: {fileID: 0}
     - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: alvo_tr
@@ -1072,6 +924,51 @@ PrefabInstance:
         type: 3}
       propertyPath: prever_Cor_Dentro.a
       value: 0.5019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: movimentoY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Tamanho
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_CirculoRaio
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: movimentoX
+      value: -0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: frequenciaEfeito
+      value: 0.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: intensidadeEfeito.y
+      value: -6.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: intensidadeEfeito.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: aceleracaoMovimentoY
+      value: 0.63
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f9aba78367b63d419c5f9605398913c, type: 3}
@@ -1321,50 +1218,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 270
       objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+    - target: {fileID: 3452126917554867632, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
-      propertyPath: aceleracaoFrequenciaEfeito
+      propertyPath: destrutivel
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+    - target: {fileID: 3452126917554867632, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
-      propertyPath: aceleracaoIntensidadeEfeito.x
+      propertyPath: previsualizar
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: movimentoY
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: frequenciaEfeito
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: intensidadeEfeito.x
-      value: -7
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_CirculoRaio
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Tamanho
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: aceleracaoMovimentoY
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Intervalo
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
@@ -1446,15 +1308,50 @@ PrefabInstance:
       propertyPath: evtAoSair.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 3452126917554867632, guid: 5f9aba78367b63d419c5f9605398913c,
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
-      propertyPath: destrutivel
+      propertyPath: aceleracaoFrequenciaEfeito
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3452126917554867632, guid: 5f9aba78367b63d419c5f9605398913c,
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
-      propertyPath: previsualizar
+      propertyPath: aceleracaoIntensidadeEfeito.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: movimentoY
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: frequenciaEfeito
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: intensidadeEfeito.x
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_CirculoRaio
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Tamanho
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: aceleracaoMovimentoY
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Intervalo
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f9aba78367b63d419c5f9605398913c, type: 3}
@@ -1690,6 +1587,51 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 6.1295075
       objectReference: {fileID: 0}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 135843477}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: distancia
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Cor_Fora.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Cor_Fora.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Cor_Fora.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Cor_Fora.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Cor_Dentro.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Cor_Dentro.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Cor_Dentro.b
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: m_Enabled
@@ -1739,51 +1681,6 @@ PrefabInstance:
         type: 3}
       propertyPath: aceleracaoMovimentoY
       value: 0.63
-      objectReference: {fileID: 0}
-    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 135843477}
-    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: distancia
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Cor_Fora.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Cor_Fora.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Cor_Fora.a
-      value: 0.5019608
-      objectReference: {fileID: 0}
-    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Cor_Fora.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Cor_Dentro.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Cor_Dentro.a
-      value: 0.5019608
-      objectReference: {fileID: 0}
-    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: prever_Cor_Dentro.b
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f9aba78367b63d419c5f9605398913c, type: 3}
@@ -1853,3 +1750,87 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &7744319854588051070
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 295031587}
+    m_Modifications:
+    - target: {fileID: 7744319854431860199, guid: e15ca46733368f143b68740c0bddbe49,
+        type: 3}
+      propertyPath: m_Name
+      value: setor ativador pergunta
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744319854431860196, guid: e15ca46733368f143b68740c0bddbe49,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744319854431860196, guid: e15ca46733368f143b68740c0bddbe49,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744319854431860196, guid: e15ca46733368f143b68740c0bddbe49,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744319854431860196, guid: e15ca46733368f143b68740c0bddbe49,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744319854431860196, guid: e15ca46733368f143b68740c0bddbe49,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744319854431860196, guid: e15ca46733368f143b68740c0bddbe49,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744319854431860196, guid: e15ca46733368f143b68740c0bddbe49,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744319854431860196, guid: e15ca46733368f143b68740c0bddbe49,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744319854431860196, guid: e15ca46733368f143b68740c0bddbe49,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744319854431860196, guid: e15ca46733368f143b68740c0bddbe49,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744319854431860196, guid: e15ca46733368f143b68740c0bddbe49,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744319854982131183, guid: e15ca46733368f143b68740c0bddbe49,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 135843477}
+    - target: {fileID: 7744319854982131183, guid: e15ca46733368f143b68740c0bddbe49,
+        type: 3}
+      propertyPath: evt.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1775838424}
+    - target: {fileID: 7744319854982131183, guid: e15ca46733368f143b68740c0bddbe49,
+        type: 3}
+      propertyPath: evt.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 135843478}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e15ca46733368f143b68740c0bddbe49, type: 3}

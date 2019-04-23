@@ -43,6 +43,8 @@ public class InstanciadorPerguntas : MonoBehaviour
 
         for (byte i = 0; i < BancoDePerguntas.QTD_ALTERNATIVAS; i++)
             alternativasTxts[i].text = pergunta.alternativas[i];
+
+        GetComponent<SistemaPerguntas>().DefinirPerguntaEmUso(pergunta);
     }
 
     void Update()

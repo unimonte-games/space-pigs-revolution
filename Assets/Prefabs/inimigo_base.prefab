@@ -64,7 +64,7 @@ GameObject:
   - component: {fileID: 6421558280907064327}
   - component: {fileID: 2533002445310433835}
   m_Layer: 0
-  m_Name: protoinimigo
+  m_Name: inimigo_base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 568d14cefe79e164cb86598420ad0a45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distancia: 15
+  distancia: 19
   alvo_tr: {fileID: 0}
   evt:
     m_PersistentCalls:
