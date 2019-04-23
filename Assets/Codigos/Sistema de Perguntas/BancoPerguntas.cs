@@ -228,6 +228,16 @@ mais próximo
 
     public static Pergunta ObterPergunta()
     {
+        Pergunta p = ObterPerguntaAleatoria();
+        
+        while (p.jaRespondida)
+            p = ObterPerguntaAleatoria();
+        
+        return p;
+    }
+
+    static Pergunta ObterPerguntaAleatoria()
+    {
         return perguntas[UnityEngine.Random.Range(0, QTD_ALTERNATIVAS-1)];
     }
 }

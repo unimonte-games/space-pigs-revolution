@@ -17,7 +17,7 @@ public class SistemaPerguntas : MonoBehaviour
             Debug.LogError("Alternativa não válida");
 
         // se alternativa tentada é a certa
-        if (perguntaEmUso.resposta == indiceAlternativa && !perguntaEmUso.jaRespondida)
+        if (perguntaEmUso.resposta == indiceAlternativa)
             ConfirmarAcerto();
     }
 
