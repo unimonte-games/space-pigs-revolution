@@ -12,7 +12,7 @@ public class SistemaPerguntas : MonoBehaviour
     }
 
     public void EvtAlternativaEscolhida(int indiceAlternativa)
-    {        
+    {
         if (indiceAlternativa > 3)
             Debug.LogError("Alternativa não válida");
 
@@ -23,11 +23,10 @@ public class SistemaPerguntas : MonoBehaviour
 
     void ConfirmarAcerto()
     {
-        Debug.Log("Acerto confirmado!");
-        // TODO: pegar melhoria aleatória
-        // TODO: aplicar melhoria
-        
         // marcar pergunta como usada
         perguntaEmUso.jaRespondida = true;
+
+        // dar uma vida a mais
+        VidaMaxJogador.vidaMax++;
     }
 }

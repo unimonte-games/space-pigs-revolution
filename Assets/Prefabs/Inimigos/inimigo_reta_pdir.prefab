@@ -67,6 +67,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 270
       objectReference: {fileID: 0}
+    - target: {fileID: 3452126917554867632, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: distancia.distancia
+      value: 5.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452126917554867632, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: distancia.deslocamento.x
+      value: -5.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452126917554867632, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: distancia.deslocamento.y
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452126917554867632, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: distancia.metodo
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: distancia.deslocamento.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: distancia.metodo
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: movimentoX

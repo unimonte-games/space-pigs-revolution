@@ -32,6 +32,9 @@ public class MultiplicadorSetor : MonoBehaviour
         Atualizar();
     }
 
+    Vector3[] posicoes_setor = new Vector3[0];
+    Vector3[] tamanhos_setor = new Vector3[0];
+
     void OnDrawGizmos()
     {
         if (!previsualizar)
@@ -39,13 +42,62 @@ public class MultiplicadorSetor : MonoBehaviour
 
         Transform tr = GetComponent<Transform>();
         var posInicial = tr.position;
+        var jogador_pos = GameObject.FindWithTag("Player").transform.position;
 
-        for (int i = 0; i < tr.childCount; i++)
+        int qtd_setores = tr.childCount;
+        int i = 0;
+
+        if (posicoes_setor.Length != qtd_setores)
         {
-            Gizmos.DrawWireCube(
-                posInicial + new Vector3(0, i * tamanhoSetor, 0),
-                new Vector3(larguraPrev, tamanhoSetor, 1f)
-            );
+            posicoes_setor = new Vector3[qtd_setores];
+            tamanhos_setor = new Vector3[qtd_setores];
+
+            // calc posições
+            for (i = 0; i < qtd_setores; i++)
+            {
+                posicoes_setor[i] = posInicial + new Vector3(0, i * tamanhoSetor, 0);
+                tamanhos_setor[i] = new Vector3(larguraPrev, tamanhoSetor, 1f);
+            }
+        }
+        else
+        {
+            for (i = 0; i < qtd_setores; i++)
+            {
+                Gizmos.color = Color.white;
+
+                bool jogador_no_setor
+                    =  jogador_pos.y < posicoes_setor[i].y + tamanhoSetor/2
+                    && jogador_pos.y > posicoes_setor[i].y - tamanhoSetor/2;
+
+
+                // calc tamanhos
+                tamanhos_setor[i] = Vector3.Lerp(
+                    tamanhos_setor[i],
+                    new Vector3(
+                        jogador_no_setor ? tamanhoSetor : larguraPrev,
+                        tamanhoSetor,
+                        1f
+                    ),
+                    Time.deltaTime * 4
+                );
+
+                // desenha setores
+                Gizmos.DrawWireCube(
+                    posicoes_setor[i],
+                    tamanhos_setor[i]
+                );
+
+                if (jogador_no_setor)
+                {
+                    Gizmos.color = Color.gray;
+
+                    // desenha setores
+                    Gizmos.DrawWireCube(
+                        posicoes_setor[i],
+                        new Vector3(larguraPrev, tamanhoSetor, 1f)
+                    );
+                }
+            }
         }
     }
 

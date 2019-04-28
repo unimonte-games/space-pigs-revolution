@@ -10,19 +10,17 @@ public class MovimentoJogador : MonoBehaviour
 
     float ObtemPosicaoX(float antes)
     {
-#if UNITY_STANDALONE
         if (Input.GetMouseButton(0))
             return Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
         else
             return antes;
-#endif
 
-        var toques = Input.touches;
+        // var toques = Input.touches;
 
-        if (toques.Length == 0)
-            return antes;
+        // if (toques.Length == 0)
+        //     return antes;
 
-        return toques[0].position.x;
+        // return toques[0].position.x;
     }
     
     void Awake()

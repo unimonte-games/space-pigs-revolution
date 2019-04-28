@@ -6,6 +6,7 @@ public class Vida : MonoBehaviour
 {
     public int vida;
 
+
     /// Desconta vida pelo dano,
     /// talvez a vida descontada não seja a mesma do dano
     /// por conta da possível presença do escudo.

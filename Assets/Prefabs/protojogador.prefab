@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6485643158969273890}
   - component: {fileID: 6485643158969273891}
   - component: {fileID: 3273299084950716753}
+  - component: {fileID: 7538121276774539374}
   - component: {fileID: 4028484154406280980}
   - component: {fileID: 6557907972469097213}
   m_Layer: 0
@@ -112,7 +113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projetil: {fileID: 6799404990651173331, guid: 60a34b29de3e6f847897eacd97fb32b1,
     type: 3}
-  intervalo: 0.2
+  intervalo: 0.3
   posicoesRotacoes:
   - posicao: {x: 0, y: 0, z: 0}
     rotacao: 0
@@ -129,6 +130,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 10
+--- !u!114 &7538121276774539374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485643158969273892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cab451c62f40ce244bb74d51cb46ddc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _vidaMax: 0
 --- !u!58 &4028484154406280980
 CircleCollider2D:
   m_ObjectHideFlags: 0

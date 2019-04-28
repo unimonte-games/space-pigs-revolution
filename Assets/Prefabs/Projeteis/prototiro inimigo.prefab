@@ -127,7 +127,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3038f5e41461d684fb663a56bb26a68b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanciaCamera: 15
+  distancia:
+    distancia: 10
+    deslocamento: {x: 0, y: 0}
+    metodo: 2
   destrutivel: 1
   previsualizar: 0
 --- !u!58 &8006407872704870320

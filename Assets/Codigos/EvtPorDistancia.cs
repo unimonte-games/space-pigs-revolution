@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class EvtPorDistancia : MonoBehaviour
 {
-    public float distancia;
+
+    public ComparadorDistancia distancia;
     public Transform alvo_tr;
     public UnityEngine.Events.UnityEvent evt, evtAoSair;
 
@@ -24,7 +25,7 @@ public class EvtPorDistancia : MonoBehaviour
         
         if (!jaAtivou)
         {
-            if (DentroDistancia())
+            if (distancia.DentroDaDistancia(tr.position, alvo_tr.position))
             {
                 evt.Invoke();
                 jaAtivou = true;
@@ -32,7 +33,7 @@ public class EvtPorDistancia : MonoBehaviour
         }
         else if (!jaSaiu)
         {
-            if (!DentroDistancia())
+            if (!distancia.DentroDaDistancia(tr.position, alvo_tr.position))
             {
                 evtAoSair.Invoke();
                 jaSaiu = true;
@@ -40,14 +41,9 @@ public class EvtPorDistancia : MonoBehaviour
         }
     }
 
-    bool DentroDistancia()
-    {
-        return Vector3.Distance(tr.position, alvo_tr.position) <= distancia;
-    }
-
     public void DefinirDistancia(float def)
     {
-        distancia = def;
+        distancia.distancia = def;
     }
 
 #if UNITY_EDITOR
@@ -57,16 +53,21 @@ public class EvtPorDistancia : MonoBehaviour
 
     void OnDrawGizmos()
     {
+        Vector2 tr_pos = new Vector2(transform.position.x, transform.position.y);
+
         Gizmos.color =
             alvo_tr == null 
                 ? Color.red 
                 :(
-                    Vector3.Distance(transform.position, alvo_tr.position) <=  distancia
+                    distancia.DentroDaDistancia(tr_pos, alvo_tr.position)
                         ? prever_Cor_Dentro
                         : prever_Cor_Fora
             );
 
-        Gizmos.DrawWireSphere(transform.position, distancia);
+        var pontos = distancia.ObterPontosPraGizmos();
+        for (int i = 1; i < pontos.Length; i++)
+            Gizmos.DrawLine(pontos[i-1] + tr_pos, pontos[i] + tr_pos);
+        Gizmos.DrawLine(pontos[pontos.Length-1] + tr_pos, pontos[0] + tr_pos);
     }
 
 #endif

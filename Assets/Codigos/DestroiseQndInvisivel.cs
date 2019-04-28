@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DestroiseQndInvisivel : MonoBehaviour
 {
-    public float distanciaCamera;
+    public ComparadorDistancia distancia;
     public bool destrutivel;
     Transform cam, tr;
     
@@ -33,7 +33,7 @@ public class DestroiseQndInvisivel : MonoBehaviour
 
     bool DentroDaDistancia(Transform _cam, Transform _tr)
     {
-        return Vector3.Distance(_cam.position, _tr.position) <= distanciaCamera;
+        return distancia.DentroDaDistancia(_tr.position, _cam.position);
     }
 
     public void DefinirDestrutivel(bool def)
@@ -58,7 +58,12 @@ public class DestroiseQndInvisivel : MonoBehaviour
                 : new Color(1, 0, 1)
         ;
 
-        Gizmos.DrawWireSphere(transform.position, distanciaCamera);
+        var pontos = distancia.ObterPontosPraGizmos();
+        var tr_pos = new Vector2(transform.position.x, transform.position.y);
+
+        for (int i = 1; i < pontos.Length; i++)
+            Gizmos.DrawLine(pontos[i-1] + tr_pos, pontos[i] + tr_pos);
+        Gizmos.DrawLine(pontos[pontos.Length-1] + tr_pos, pontos[0] + tr_pos);
     }
 
 #endif

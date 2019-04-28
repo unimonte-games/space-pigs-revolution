@@ -99,7 +99,7 @@ MonoBehaviour:
   relativoAo: 1
   tempoDeEspera: 0
   movimentoX: 0
-  movimentoY: 5
+  movimentoY: 8
   rotacao: 0
   efeito: 1
   frequenciaEfeito: 0
@@ -126,7 +126,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3038f5e41461d684fb663a56bb26a68b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanciaCamera: 15
+  distancia:
+    distancia: 10
+    deslocamento: {x: 0, y: 0}
+    metodo: 2
   destrutivel: 1
   previsualizar: 0
 --- !u!58 &8006407872704870320
@@ -157,7 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea1e3c509d9d052408b8b09dfc0fe2c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  filtroTag: Player
+  filtroTag: Inimigo
   dano: 1
 --- !u!114 &5124624282511484709
 MonoBehaviour:
