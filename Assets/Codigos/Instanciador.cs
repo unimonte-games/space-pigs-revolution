@@ -30,7 +30,7 @@ public class Instanciador : MonoBehaviour
     {
         while (true)
         {
-            if (DeveAtirar())
+            if (DeveAtirar() && enabled)
             {
                 for (int i = 0; i < posicoesRotacoes.Length; i++)
                 {

@@ -11,7 +11,7 @@ public class InstanciadorPerguntas : MonoBehaviour
 
     Text perguntaTxt;
     Text[] alternativasTxts = new Text[BancoDePerguntas.QTD_ALTERNATIVAS];
-    
+
     Transform tr;
     RectTransform rtr;
 
@@ -22,7 +22,7 @@ public class InstanciadorPerguntas : MonoBehaviour
     public AnimationCurve curva;
 
     void Awake()
-    {   
+    {
         tr = GetComponent<Transform>();
         rtr = GetComponent<RectTransform>();
 
@@ -52,10 +52,10 @@ public class InstanciadorPerguntas : MonoBehaviour
         if (visivel && t < 1)
         {
             t += Time.deltaTime * velT;
-            
+
             if (t > 1)
                 t = 1;
-            
+
             float ancoraCima   = curva.Evaluate(t) + 1;
             float anchoraBaixo = curva.Evaluate(t);
 
@@ -68,14 +68,8 @@ public class InstanciadorPerguntas : MonoBehaviour
         }
     }
 
-    public void TornarSeVisivel(float tempoEspera)
+    public void TornarSeVisivel()
     {
-        StartCoroutine(cr_TornarSeVisivel(tempoEspera));
-    }
-
-    IEnumerator cr_TornarSeVisivel(float tempoEspera)
-    {
-        yield return new WaitForSeconds(tempoEspera);
         visivel = true;
     }
 }

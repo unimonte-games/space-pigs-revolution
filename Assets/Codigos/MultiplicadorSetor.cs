@@ -10,7 +10,10 @@ public class MultiplicadorSetor : MonoBehaviour
     public bool previsualizar;
 
     [ContextMenu("Atualizar setores")]
-    void Atualizar()
+    void ContextoAtualizar() { Atualizar(true);  }
+    void        OnValidate() { Atualizar(false); }
+
+    void Atualizar(bool atualizaFundo)
     {
         Transform tr = GetComponent<Transform>();
 
@@ -25,11 +28,14 @@ public class MultiplicadorSetor : MonoBehaviour
         var coreografias = FindObjectsOfType<Coreografia>();
         for (int i = 0; i < coreografias.Length; i++)
             coreografias[i].DEBUG_AtualizaPreverTr();
-    }
 
-    void OnValidate()
-    {
-        Atualizar();
+        if (atualizaFundo)
+        {
+            var fundo = GetComponent<SpriteRenderer>();
+            if (fundo)
+                fundo.size = new Vector2(30, tamanhoSetor * tr.childCount * 2);
+        }
+
     }
 
     Vector3[] posicoes_setor = new Vector3[0];
@@ -63,7 +69,10 @@ public class MultiplicadorSetor : MonoBehaviour
         {
             for (i = 0; i < qtd_setores; i++)
             {
-                Gizmos.color = Color.white;
+                Gizmos.color = i == 0 || tr.GetChild(i).childCount > 0
+                    ? Color.white
+                    : Color.red;
+
 
                 bool jogador_no_setor
                     =  jogador_pos.y < posicoes_setor[i].y + tamanhoSetor/2

@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class EvtPorDistancia : MonoBehaviour
 {
-
     public ComparadorDistancia distancia;
     public Transform alvo_tr;
     public UnityEngine.Events.UnityEvent evt, evtAoSair;
 
     bool jaAtivou, jaSaiu;
+
 
     Transform tr;
 
@@ -22,7 +22,7 @@ public class EvtPorDistancia : MonoBehaviour
     {
         if (alvo_tr == null)
             return;
-        
+
         if (!jaAtivou)
         {
             if (distancia.DentroDaDistancia(tr.position, alvo_tr.position))
@@ -50,14 +50,18 @@ public class EvtPorDistancia : MonoBehaviour
 
     public Color prever_Cor_Fora   = new Color(0, 0, 1, 0.5f);
     public Color prever_Cor_Dentro = new Color(0, 1, 0, 0.5f);
+    public bool previsualizar;
 
     void OnDrawGizmos()
     {
+        if (!previsualizar)
+            return;
+
         Vector2 tr_pos = new Vector2(transform.position.x, transform.position.y);
 
         Gizmos.color =
-            alvo_tr == null 
-                ? Color.red 
+            alvo_tr == null
+                ? Color.red
                 :(
                     distancia.DentroDaDistancia(tr_pos, alvo_tr.position)
                         ? prever_Cor_Dentro
