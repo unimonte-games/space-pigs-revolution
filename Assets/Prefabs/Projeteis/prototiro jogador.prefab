@@ -99,7 +99,7 @@ MonoBehaviour:
   relativoAo: 1
   tempoDeEspera: 0
   movimentoX: 0
-  movimentoY: 8
+  movimentoY: 12
   rotacao: 0
   efeito: 1
   frequenciaEfeito: 0

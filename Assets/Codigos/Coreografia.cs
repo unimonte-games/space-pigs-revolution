@@ -257,14 +257,6 @@ public class Coreografia : MonoBehaviour
         }
     }
 
-    [ContextMenu("Aleatorizar Cores de Pré-visualização")]
-    void AleatorizarCoresPrev()
-    {
-        var todasCoreografias = FindObjectsOfType<Coreografia>();
-        for (int i = 0; i < todasCoreografias.Length; i++)
-            todasCoreografias[i].prever_Cor = Random.ColorHSV(0f, 1f, 0.9f, 1f, 0.9f, 1f);
-    }
-
 #endif
 }
 
