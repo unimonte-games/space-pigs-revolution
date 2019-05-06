@@ -33,7 +33,7 @@ public class MultiplicadorSetor : MonoBehaviour
         {
             var fundo = GetComponent<SpriteRenderer>();
             if (fundo)
-                fundo.size = new Vector2(30, tamanhoSetor * tr.childCount * 2);
+                fundo.size = new Vector2(30, tamanhoSetor + tamanhoSetor * tr.childCount * 2);
         }
 
     }
