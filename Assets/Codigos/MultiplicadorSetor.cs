@@ -35,7 +35,6 @@ public class MultiplicadorSetor : MonoBehaviour
             if (fundo)
                 fundo.size = new Vector2(30, tamanhoSetor + tamanhoSetor * tr.childCount * 2);
         }
-
     }
 
     Vector3[] posicoes_setor = new Vector3[0];

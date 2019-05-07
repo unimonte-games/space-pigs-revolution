@@ -238,6 +238,7 @@ mais próximo
 
     static Pergunta ObterPerguntaAleatoria()
     {
-        return perguntas[UnityEngine.Random.Range(0, QTD_ALTERNATIVAS-1)];
+        int i = UnityEngine.Random.Range(0, perguntas.Length);
+        return perguntas[i];
     }
 }
