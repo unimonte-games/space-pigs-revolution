@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class CausarDanoAoEncostar : MonoBehaviour
 {
-    public string filtroTag;
+    public string[] filtroTag;
     public int dano;
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (filtroTag == "" || (filtroTag != "" && col.CompareTag(filtroTag)))
+        if (DentroDaTag(col.tag))
         {
             var vida = col.GetComponent<Vida>();
             
@@ -19,5 +19,16 @@ public class CausarDanoAoEncostar : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+    }
+
+    bool DentroDaTag(string inimigo_tag)
+    {
+        for (int i = 0; i < filtroTag.Length; i++)
+        {
+            if (inimigo_tag == filtroTag[i])
+                return true;
+        }
+
+        return false;
     }
 }

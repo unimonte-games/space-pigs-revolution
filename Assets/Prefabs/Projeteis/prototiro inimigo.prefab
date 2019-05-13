@@ -161,7 +161,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea1e3c509d9d052408b8b09dfc0fe2c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  filtroTag: Player
+  filtroTag:
+  - Player
   dano: 1
 --- !u!114 &1304081144379974129
 MonoBehaviour:

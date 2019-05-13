@@ -160,7 +160,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea1e3c509d9d052408b8b09dfc0fe2c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  filtroTag: Inimigo
+  filtroTag:
+  - Inimigo
+  - Meteoro
   dano: 1
 --- !u!114 &5124624282511484709
 MonoBehaviour:

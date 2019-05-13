@@ -1,35 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &1513723582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461999979267348922}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf4c1c4587d644f4c8f604e50cdc18d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  relativoAo: 0
-  tempoDeEspera: 0
-  movimentoX: 0
-  movimentoY: 0
-  rotacao: 0
-  efeito: 1
-  frequenciaEfeito: 1.5
-  intensidadeEfeito: {x: 7.79, y: 0}
-  aceleracaoMovimentoX: 0
-  aceleracaoMovimentoY: 0
-  aceleracaoRotacao: 0
-  aceleracaoFrequenciaEfeito: 0
-  aceleracaoIntensidadeEfeito: {x: 0, y: 0}
-  prever_Tamanho: 60
-  prever_CirculoRaio: 0.3
-  prever_Intervalo: 3
-  prever_Cor: {r: 0.3882353, g: 0.6124085, b: 0.8117647, a: 0.69803923}
-  usarOnValidate: 1
 --- !u!1001 &7671695100373319294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -100,22 +70,22 @@ PrefabInstance:
     - target: {fileID: 9096505094161098695, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 6.1295037
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098695, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 6.1295037
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: frequenciaEfeito
-      value: 4
+      value: 3.09
       objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: intensidadeEfeito.y
-      value: -4
+      value: 2.44
       objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
@@ -125,12 +95,12 @@ PrefabInstance:
     - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: prever_Cor.r
-      value: 0.3892604
+      value: 0.3882353
       objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: prever_Cor.g
-      value: 0.455
+      value: 0.6124085
       objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
@@ -142,6 +112,41 @@ PrefabInstance:
       propertyPath: prever_Cor.a
       value: 0.69803923
       objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: intensidadeEfeito.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: aceleracaoMovimentoX
+      value: -1.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: movimentoX
+      value: 4.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: aceleracaoIntensidadeEfeito.y
+      value: 0.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: aceleracaoIntensidadeEfeito.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: prever_Tamanho
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: aceleracaoFrequenciaEfeito
+      value: 0.64
+      objectReference: {fileID: 0}
     - target: {fileID: 6421558280907064327, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: vel.y
@@ -149,9 +154,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f9aba78367b63d419c5f9605398913c, type: 3}
---- !u!1 &1461999979267348922 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9096505094161098692, guid: 5f9aba78367b63d419c5f9605398913c,
-    type: 3}
-  m_PrefabInstance: {fileID: 7671695100373319294}
-  m_PrefabAsset: {fileID: 0}

@@ -164,7 +164,7 @@ MonoBehaviour:
   aceleracaoFrequenciaEfeito: 0
   aceleracaoIntensidadeEfeito: {x: 0, y: 0}
   prever_Tamanho: 60
-  prever_CirculoRaio: 1
+  prever_CirculoRaio: 0.3
   prever_Intervalo: 3
   prever_Cor: {r: 1, g: 0, b: 0, a: 1}
   usarOnValidate: 1

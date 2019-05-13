@@ -23,10 +23,10 @@ public class SpriteAleatorio : MonoBehaviour
     [ContextMenu("Aleatorizar em Cena")]
     void AleatoriarEmCena()
     {
-        MorteInimigo[] inimigos = FindObjectsOfType<MorteInimigo>();
+        var inimigos = GameObject.FindGameObjectsWithTag("Inimigo");
         
         for (int i = 0; i < inimigos.Length; i++)
-            AplicaAleatorio(inimigos[i].GetComponent<SpriteRenderer>());
+            AplicaAleatorio(inimigos[i].GetComponent<SpriteRenderer>());            
     }
 
 #endif
