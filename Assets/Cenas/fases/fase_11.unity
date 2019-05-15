@@ -1448,11 +1448,6 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 8576523489799357640, guid: 16ea1f5e0c846434eb681d95c88c5567,
         type: 3}
-      propertyPath: movimentoX
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8576523489799357640, guid: 16ea1f5e0c846434eb681d95c88c5567,
-        type: 3}
       propertyPath: prever_Cor.r
       value: 0.44419003
       objectReference: {fileID: 0}
@@ -1465,21 +1460,6 @@ PrefabInstance:
         type: 3}
       propertyPath: prever_Cor.b
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8576523489799357640, guid: 16ea1f5e0c846434eb681d95c88c5567,
-        type: 3}
-      propertyPath: frequenciaEfeito
-      value: 2.23
-      objectReference: {fileID: 0}
-    - target: {fileID: 8576523489799357640, guid: 16ea1f5e0c846434eb681d95c88c5567,
-        type: 3}
-      propertyPath: intensidadeEfeito.x
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8576523489799357640, guid: 16ea1f5e0c846434eb681d95c88c5567,
-        type: 3}
-      propertyPath: intensidadeEfeito.y
-      value: -2.33
       objectReference: {fileID: 0}
     - target: {fileID: 8576523489799357640, guid: 16ea1f5e0c846434eb681d95c88c5567,
         type: 3}

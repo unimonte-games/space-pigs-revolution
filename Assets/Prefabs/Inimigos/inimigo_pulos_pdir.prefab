@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 9096505094161098692, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: m_Name
-      value: inimigo_base
+      value: inimigo_pulos_pdir
       objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098695, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
@@ -66,6 +66,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: frequenciaEfeito
+      value: 2.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: intensidadeEfeito.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: intensidadeEfeito.y
+      value: -2.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: movimentoX
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f9aba78367b63d419c5f9605398913c, type: 3}

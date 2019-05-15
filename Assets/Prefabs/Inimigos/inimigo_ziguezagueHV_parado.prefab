@@ -85,7 +85,7 @@ PrefabInstance:
     - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: intensidadeEfeito.y
-      value: 2.44
+      value: -2.44
       objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
@@ -130,7 +130,7 @@ PrefabInstance:
     - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: aceleracaoIntensidadeEfeito.y
-      value: 0.87
+      value: -0.87
       objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
