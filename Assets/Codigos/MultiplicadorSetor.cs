@@ -25,9 +25,7 @@ public class MultiplicadorSetor : MonoBehaviour
             child.localPosition = pos;
         }
 
-        var coreografias = FindObjectsOfType<Coreografia>();
-        for (int i = 0; i < coreografias.Length; i++)
-            coreografias[i].DEBUG_AtualizaPreverTr();
+        Coreografia.DEBUG_AtualizaPreverTrs();
 
         if (atualizaFundo)
         {

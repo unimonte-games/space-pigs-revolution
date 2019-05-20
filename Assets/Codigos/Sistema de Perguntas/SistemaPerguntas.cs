@@ -19,6 +19,8 @@ public class SistemaPerguntas : MonoBehaviour
         // se alternativa tentada é a certa
         if (perguntaEmUso.resposta == indiceAlternativa)
             ConfirmarAcerto();
+
+        TransicaoFases.ProximaFase();
     }
 
     void ConfirmarAcerto()

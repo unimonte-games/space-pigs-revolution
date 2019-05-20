@@ -4,5 +4,47 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Cenas/fases/fase_01.unity
+    guid: 16e8b84e46f5b4a49adcbec6aaf72d2c
+  - enabled: 1
+    path: Assets/Cenas/fases/fase_02.unity
+    guid: 71ffdc74cbc089442ad9637b4ada4376
+  - enabled: 1
+    path: Assets/Cenas/fases/fase_03.unity
+    guid: 5d4f9bb4e92557847a19d831ced80e30
+  - enabled: 1
+    path: Assets/Cenas/fases/fase_04.unity
+    guid: a484a192d07030d4898419dc7389045c
+  - enabled: 1
+    path: Assets/Cenas/fases/fase_05.unity
+    guid: 154adc6a0dbc82b45baade33a146ce31
+  - enabled: 1
+    path: Assets/Cenas/fases/fase_06.unity
+    guid: a7e0e578d2d50a744aefc51dd56591a9
+  - enabled: 1
+    path: Assets/Cenas/fases/fase_07.unity
+    guid: ed5667b46c8832b4a86a6e0ac1d78ec1
+  - enabled: 1
+    path: Assets/Cenas/fases/fase_08.unity
+    guid: edae15445be78ad418b38e34376b3be3
+  - enabled: 1
+    path: Assets/Cenas/fases/fase_09.unity
+    guid: 76ebf608e35f91e4a8b562a490b4867d
+  - enabled: 1
+    path: Assets/Cenas/fases/fase_10.unity
+    guid: fcdd08d16f221b54a899b27dab3ebef0
+  - enabled: 1
+    path: Assets/Cenas/fases/fase_11.unity
+    guid: 2d269947903657a42a236f031a9aaacd
+  - enabled: 1
+    path: Assets/Cenas/fases/fase_12.unity
+    guid: e13fe1226c4c4354795a0f7efff3c278
+  - enabled: 1
+    path: Assets/Cenas/fases/fase_13.unity
+    guid: 4e8112a99e3a9f74f9235a7cf2e5415f
+  - enabled: 1
+    path: Assets/Cenas/fases/fase_14.unity
+    guid: 38c5f5b6f9256a848b50f0e0e25d1dd7
   m_configObjects: {}

@@ -112,7 +112,7 @@ public class Coreografia : MonoBehaviour
                 Vector2 pos = tr.localPosition;
 
                 Vector2 pos_delta = (CalculaDelta(movimentoX, movimentoY) + CalculaEfeito(efeitoFator, intensidadeEfeito)) * Time.deltaTime;
-                pos_delta = relativoAo == Space.Self 
+                pos_delta = relativoAo == Space.Self
                     ? RotacionaPonto(pos_delta, ang.z)
                     : pos_delta;
 
@@ -182,7 +182,16 @@ public class Coreografia : MonoBehaviour
 #if UNITY_EDITOR
 
     [ContextMenu("Atualiza Pré-visualização")]
-    public void DEBUG_AtualizaPreverTr()
+    void _DEBUG_AtualizaPreverTrs() { DEBUG_AtualizaPreverTrs(); }
+
+    public static void DEBUG_AtualizaPreverTrs()
+    {
+        var coreos = FindObjectsOfType<Coreografia>();
+        for (int i = 0; i < coreos.Length; i++)
+            coreos[i].DEBUG_AtualizaPreverTr();
+    }
+
+    void DEBUG_AtualizaPreverTr()
     {
         prever_posTr = transform.position;
         prever_rotTr = transform.eulerAngles.z;
@@ -194,7 +203,7 @@ public class Coreografia : MonoBehaviour
         init_intensidadeEfeito = intensidadeEfeito;
     }
 
-    void OnValidate() { if (usarOnValidate) DEBUG_AtualizaPreverTr(); }
+    void OnValidate() { if (usarOnValidate) DEBUG_AtualizaPreverTrs(); }
 
     void OnDrawGizmos()
     {
