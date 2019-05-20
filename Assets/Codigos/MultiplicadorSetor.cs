@@ -5,21 +5,47 @@ using UnityEngine;
 public class MultiplicadorSetor : MonoBehaviour
 {
 #if UNITY_EDITOR
+    public SpriteRenderer fundoEspaco;
+#endif
+    public SpriteRenderer fundoEstrelas;
+    Transform tr, jogador_tr, estrelas_tr;
+
+    void Awake()
+    {
+        tr = GetComponent<Transform>();
+        jogador_tr = GameObject.FindWithTag("Player").transform;
+        estrelas_tr = fundoEstrelas.transform;
+    }
+
+    void Update()
+    {
+        AtualizaTamanhoFundo(fundoEstrelas, tamanhoSetor + jogador_tr.position.y * 0.4f);
+        var estrelas_pos = estrelas_tr.position;
+        estrelas_pos.y = jogador_tr.position.y;
+        estrelas_tr.position = estrelas_pos;
+    }
+
+    void AtualizaTamanhoFundo(SpriteRenderer fundo, float tamanho)
+    {
+        fundo.size = new Vector2(30, tamanho);
+    }
+
+#if UNITY_EDITOR
 
     public float tamanhoSetor, larguraPrev;
     public bool previsualizar;
 
     [ContextMenu("Atualizar setores")]
-    void ContextoAtualizar() { Atualizar(true);  }
-    void        OnValidate() { Atualizar(false); }
+    void ContextoAtualizar() { Atualizar(); }
+    void        OnValidate() { Atualizar(); }
 
-    void Atualizar(bool atualizaFundo)
+    void Atualizar()
     {
-        Transform tr = GetComponent<Transform>();
+        Transform setores_tr = transform.GetChild(0);
 
-        for (int i = 0; i < tr.childCount; i++)
+        for (int i = 0; i < setores_tr.childCount; i++)
         {
-            var child = tr.GetChild(i);
+            var child = setores_tr.GetChild(i);
             var pos = child.localPosition;
             pos.y = tamanhoSetor * i;
             child.localPosition = pos;
@@ -27,12 +53,8 @@ public class MultiplicadorSetor : MonoBehaviour
 
         Coreografia.DEBUG_AtualizaPreverTrs();
 
-        if (atualizaFundo)
-        {
-            var fundo = GetComponent<SpriteRenderer>();
-            if (fundo)
-                fundo.size = new Vector2(30, tamanhoSetor + tamanhoSetor * tr.childCount * 2);
-        }
+        if (fundoEspaco)
+            AtualizaTamanhoFundo(fundoEspaco, tamanhoSetor + tamanhoSetor * setores_tr.childCount * 2);
     }
 
     Vector3[] posicoes_setor = new Vector3[0];
@@ -43,11 +65,16 @@ public class MultiplicadorSetor : MonoBehaviour
         if (!previsualizar)
             return;
 
-        Transform tr = GetComponent<Transform>();
-        var posInicial = tr.position;
-        var jogador_pos = GameObject.FindWithTag("Player").transform.position;
+        Transform setores_tr = transform.GetChild(0);
+        var posInicial = setores_tr.position;
 
-        int qtd_setores = tr.childCount;
+        var jogador_gbj = GameObject.FindWithTag("Player");
+        if (jogador_gbj == null)
+            return;
+
+        var jogador_pos = jogador_gbj.transform.position;
+
+        int qtd_setores = setores_tr.childCount;
         int i = 0;
 
         if (posicoes_setor.Length != qtd_setores)
@@ -66,7 +93,7 @@ public class MultiplicadorSetor : MonoBehaviour
         {
             for (i = 0; i < qtd_setores; i++)
             {
-                Gizmos.color = i == 0 || tr.GetChild(i).childCount > 0
+                Gizmos.color = i == 0 || setores_tr.GetChild(i).childCount > 0
                     ? Color.white
                     : Color.red;
 
