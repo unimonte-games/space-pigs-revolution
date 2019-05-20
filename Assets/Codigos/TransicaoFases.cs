@@ -3,14 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public static class TransicaoFases
+public class TransicaoFases : MonoBehaviour
 {
-    static int fase_atual = 1;
 
-    public static void ProximaFase()
+    public void ProximaFase()
     {
-        fase_atual = fase_atual + 1;
-        string nome_fase = string.Concat("fase_", fase_atual.ToString("00"));
+        string nome_fase_atual = SceneManager.GetActiveScene().name;
+        int numb_fase_atual = int.Parse(nome_fase_atual.Substring(5));
+
+        numb_fase_atual = numb_fase_atual + 1;
+        string nome_fase = string.Concat("fase_", numb_fase_atual.ToString("00"));
+
+        IrParaFase(nome_fase);
+    }
+
+    public void IrParaFase(string nome_fase)
+    {
         SceneManager.LoadScene(nome_fase);
     }
 }

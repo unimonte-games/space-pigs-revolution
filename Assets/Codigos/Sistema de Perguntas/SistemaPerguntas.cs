@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SistemaPerguntas : MonoBehaviour
 {
+    public UnityEngine.Events.UnityEvent aoResponder;
+
     Pergunta perguntaEmUso;
 
     public void DefinirPerguntaEmUso(Pergunta p)
@@ -20,7 +22,7 @@ public class SistemaPerguntas : MonoBehaviour
         if (perguntaEmUso.resposta == indiceAlternativa)
             ConfirmarAcerto();
 
-        TransicaoFases.ProximaFase();
+        aoResponder.Invoke();
     }
 
     void ConfirmarAcerto()
