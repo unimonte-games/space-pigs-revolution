@@ -37,8 +37,7 @@ public class MovimentoJogador : MonoBehaviour
 
         var pos = tr.position;
 
-        if (!diario.mouseEmCima)
-            pos.x = ObtemPosicaoX(pos.x);
+        pos.x = ObtemPosicaoX(pos.x);
 
         if (movimentarSeVertical)
             pos.y += velY * Time.deltaTime;
