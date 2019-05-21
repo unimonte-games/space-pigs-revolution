@@ -7,13 +7,19 @@ public class Movese : MonoBehaviour
     public Vector3 dir, vel;
     Transform tr;
 
+    DiarioPn diario;
+
     void Awake()
     {
+        diario = FindObjectOfType<DiarioPn>();
         tr = GetComponent<Transform>();
     }
 
     void Update()
     {
+        if (diario.aberto)
+            return;
+
         var pos = tr.position;
 
         pos.x += dir.x * vel.x * Time.deltaTime;

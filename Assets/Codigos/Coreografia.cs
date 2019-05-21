@@ -56,6 +56,7 @@ public class Coreografia : MonoBehaviour
         Senoide
     }
 
+    DiarioPn diario;
 
 #if UNITY_EDITOR
 
@@ -84,6 +85,7 @@ public class Coreografia : MonoBehaviour
 
     void Awake()
     {
+        diario = FindObjectOfType<DiarioPn>();
         tr = GetComponent<Transform>();
         jogador_tr = GameObject
             .FindWithTag("Player")
@@ -96,6 +98,9 @@ public class Coreografia : MonoBehaviour
 
     void Update()
     {
+        if (diario.aberto)
+            return;
+
         if (dirTempo < 0)
             dirTempo = Time.time;
         else
