@@ -99,6 +99,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 270
       objectReference: {fileID: 0}
+    - target: {fileID: 4336981715215845348, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: vida
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: movimentoY
@@ -123,6 +128,11 @@ PrefabInstance:
         type: 3}
       propertyPath: prever_Cor.g
       value: 0.4109319
+      objectReference: {fileID: 0}
+    - target: {fileID: 2686312241316230220, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: intervalo
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f9aba78367b63d419c5f9605398913c, type: 3}
@@ -199,6 +209,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 270
       objectReference: {fileID: 0}
+    - target: {fileID: 4336981715215845348, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: vida
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: movimentoY
@@ -223,6 +238,11 @@ PrefabInstance:
         type: 3}
       propertyPath: prever_Cor.g
       value: 0.4109319
+      objectReference: {fileID: 0}
+    - target: {fileID: 2686312241316230220, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: intervalo
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f9aba78367b63d419c5f9605398913c, type: 3}

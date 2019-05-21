@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class MultiplicadorSetor : MonoBehaviour
 {
-#if UNITY_EDITOR
-    public SpriteRenderer fundoEspaco;
-#endif
     public SpriteRenderer fundoEstrelas;
     Transform tr, jogador_tr, estrelas_tr;
 
@@ -52,9 +49,6 @@ public class MultiplicadorSetor : MonoBehaviour
         }
 
         Coreografia.DEBUG_AtualizaPreverTrs();
-
-        if (fundoEspaco)
-            AtualizaTamanhoFundo(fundoEspaco, tamanhoSetor + tamanhoSetor * setores_tr.childCount * 2);
     }
 
     Vector3[] posicoes_setor = new Vector3[0];
