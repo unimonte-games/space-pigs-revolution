@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class MorteInimigo : MonoBehaviour
 {
     Vida vida;
+    public UnityEvent aoMorrer;
 
     void Awake()
     {
@@ -15,6 +17,7 @@ public class MorteInimigo : MonoBehaviour
     {
         if (vida.vida == 0)
         {
+            aoMorrer.Invoke();
             Destroy(gameObject);
         }
     }

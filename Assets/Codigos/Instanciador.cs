@@ -33,6 +33,9 @@ public class Instanciador : MonoBehaviour
     // Update is called once per frame
     IEnumerator LoopTiro()
     {
+        if (!gameObject.CompareTag("Player"))
+            yield return new WaitUntil(() => atirar);
+
         while (true)
         {
             if (!diario.aberto && DeveAtirar() && enabled)
@@ -57,7 +60,7 @@ public class Instanciador : MonoBehaviour
     {
         if (gameObject.CompareTag("Player"))
         {
-#if UNITY_STANDALONE
+#if UNITY_STANDALONE || UNITY_WEBGL
             return Input.GetMouseButton(0);
 #else
             return Input.touches.Length > 0;

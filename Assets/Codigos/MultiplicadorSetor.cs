@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MultiplicadorSetor : MonoBehaviour
 {
+    public float tamanhoSetor;
     public SpriteRenderer fundoEstrelas;
     Transform tr, jogador_tr, estrelas_tr;
 
@@ -29,7 +30,7 @@ public class MultiplicadorSetor : MonoBehaviour
 
 #if UNITY_EDITOR
 
-    public float tamanhoSetor, larguraPrev;
+    public float larguraPrev;
     public bool previsualizar;
 
     [ContextMenu("Atualizar setores")]

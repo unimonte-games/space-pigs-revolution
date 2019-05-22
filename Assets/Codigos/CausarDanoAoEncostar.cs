@@ -12,7 +12,7 @@ public class CausarDanoAoEncostar : MonoBehaviour
         if (DentroDaTag(col.tag))
         {
             var vida = col.GetComponent<Vida>();
-            
+
             if (vida)
             {
                 vida.CausarDano(dano);
