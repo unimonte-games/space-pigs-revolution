@@ -5,6 +5,7 @@ using UnityEngine;
 public class Movese : MonoBehaviour
 {
     public Vector3 dir, vel;
+
     Transform tr;
 
     DiarioPn diario;
@@ -27,5 +28,10 @@ public class Movese : MonoBehaviour
         pos.z += dir.z * vel.z * Time.deltaTime;
 
         tr.position = pos;
+    }
+
+    public void MulVel(float mul)
+    {
+        vel = vel * mul;
     }
 }

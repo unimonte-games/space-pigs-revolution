@@ -183,7 +183,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 680664f0a5baead4db0dc5981718905b, type: 3}
 --- !u!4 &16930922 stripped
@@ -269,7 +269,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 44636376453224022, guid: e83a6ac9a79e8c1478ae823df4128618,
         type: 3}
       propertyPath: m_Sprite
@@ -280,7 +280,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 44636376694335168, guid: e83a6ac9a79e8c1478ae823df4128618,
         type: 3}
       propertyPath: m_Sprite
@@ -291,7 +291,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e83a6ac9a79e8c1478ae823df4128618, type: 3}
 --- !u!4 &20002493 stripped
@@ -371,7 +371,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &41944505 stripped
@@ -492,7 +492,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &47749648 stripped
@@ -574,16 +574,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300004, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
+    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 1461999979267348923, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: movimentoX
       value: 4.5
       objectReference: {fileID: 0}
-    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 1081473086}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a9f3720ba9d2df45a174439614c7fdc, type: 3}
 --- !u!4 &83895599 stripped
@@ -663,7 +663,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &251656805 stripped
@@ -745,6 +745,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300002, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
+    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 1461999979267348923, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: movimentoX
@@ -755,11 +760,6 @@ PrefabInstance:
       propertyPath: aceleracaoMovimentoX
       value: 1.72
       objectReference: {fileID: 0}
-    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 1081473086}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a9f3720ba9d2df45a174439614c7fdc, type: 3}
 --- !u!4 &251770704 stripped
@@ -839,7 +839,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &279766132 stripped
@@ -964,7 +964,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7381660baa1e104094a234f64623d6d, type: 3}
 --- !u!1001 &327891452
@@ -1038,7 +1038,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &327891453 stripped
@@ -1118,7 +1118,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 8715310444968687619, guid: 448fe6b0e1493874cababb2dff5ca33b,
         type: 3}
       propertyPath: m_Sprite
@@ -1204,7 +1204,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &342474787 stripped
@@ -1284,7 +1284,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &370142043 stripped
@@ -1364,7 +1364,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &397549065 stripped
@@ -1450,7 +1450,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 8576523489799357640, guid: 16ea1f5e0c846434eb681d95c88c5567,
         type: 3}
       propertyPath: prever_Cor.r
@@ -1550,7 +1550,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 2942763733510193336, guid: 680664f0a5baead4db0dc5981718905b,
         type: 3}
       propertyPath: distancia.distancia
@@ -1645,7 +1645,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 680664f0a5baead4db0dc5981718905b, type: 3}
 --- !u!1001 &445332637
@@ -1719,7 +1719,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 680664f0a5baead4db0dc5981718905b, type: 3}
 --- !u!4 &445332638 stripped
@@ -1799,7 +1799,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &489334253 stripped
@@ -1879,7 +1879,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 680664f0a5baead4db0dc5981718905b, type: 3}
 --- !u!1001 &536171356
@@ -1949,6 +1949,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 917370675637876025, guid: 4ad70f92e0e3c47439b3f5ea4226fabd,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 1561235342997399557, guid: 4ad70f92e0e3c47439b3f5ea4226fabd,
         type: 3}
       propertyPath: distancia.distancia
@@ -1964,11 +1969,6 @@ PrefabInstance:
       propertyPath: previsualizar
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 917370675637876025, guid: 4ad70f92e0e3c47439b3f5ea4226fabd,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 1081473086}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &536171357 stripped
@@ -2050,6 +2050,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 917370675637876025, guid: 4ad70f92e0e3c47439b3f5ea4226fabd,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 1561235342997399557, guid: 4ad70f92e0e3c47439b3f5ea4226fabd,
         type: 3}
       propertyPath: distancia.distancia
@@ -2065,11 +2070,6 @@ PrefabInstance:
       propertyPath: previsualizar
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 917370675637876025, guid: 4ad70f92e0e3c47439b3f5ea4226fabd,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 1081473086}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &588521931 stripped
@@ -2149,7 +2149,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &596891737 stripped
@@ -2235,7 +2235,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &626592649 stripped
@@ -2315,7 +2315,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &627280618 stripped
@@ -2395,7 +2395,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 2942763733510193336, guid: 680664f0a5baead4db0dc5981718905b,
         type: 3}
       propertyPath: distancia.distancia
@@ -2490,7 +2490,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &649791739 stripped
@@ -2570,7 +2570,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &655244420 stripped
@@ -2650,7 +2650,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &675723689 stripped
@@ -2730,7 +2730,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &679775337 stripped
@@ -2810,7 +2810,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &688943648 stripped
@@ -2890,7 +2890,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 680664f0a5baead4db0dc5981718905b, type: 3}
 --- !u!4 &691992750 stripped
@@ -2976,7 +2976,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 44636376453224022, guid: e83a6ac9a79e8c1478ae823df4128618,
         type: 3}
       propertyPath: m_Sprite
@@ -2987,7 +2987,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 44636376694335168, guid: e83a6ac9a79e8c1478ae823df4128618,
         type: 3}
       propertyPath: m_Sprite
@@ -2998,7 +2998,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e83a6ac9a79e8c1478ae823df4128618, type: 3}
 --- !u!4 &712201072 stripped
@@ -3078,7 +3078,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &720108776 stripped
@@ -3164,7 +3164,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7381660baa1e104094a234f64623d6d, type: 3}
 --- !u!1 &742353614
@@ -3281,7 +3281,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 680664f0a5baead4db0dc5981718905b, type: 3}
 --- !u!4 &746707953 stripped
@@ -3361,7 +3361,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &750342029 stripped
@@ -3453,7 +3453,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &797615110 stripped
@@ -3533,7 +3533,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &822747366 stripped
@@ -3613,7 +3613,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &827543801 stripped
@@ -3693,7 +3693,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &829249736 stripped
@@ -3773,7 +3773,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 680664f0a5baead4db0dc5981718905b, type: 3}
 --- !u!4 &872638321 stripped
@@ -3859,7 +3859,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 44636376453224022, guid: e83a6ac9a79e8c1478ae823df4128618,
         type: 3}
       propertyPath: m_Sprite
@@ -3870,7 +3870,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 44636376694335168, guid: e83a6ac9a79e8c1478ae823df4128618,
         type: 3}
       propertyPath: m_Sprite
@@ -3881,7 +3881,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e83a6ac9a79e8c1478ae823df4128618, type: 3}
 --- !u!4 &874523644 stripped
@@ -3961,7 +3961,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &907169930 stripped
@@ -4041,7 +4041,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 2942763733510193336, guid: 680664f0a5baead4db0dc5981718905b,
         type: 3}
       propertyPath: distancia.distancia
@@ -4136,7 +4136,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &1017660982 stripped
@@ -4315,7 +4315,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 680664f0a5baead4db0dc5981718905b, type: 3}
 --- !u!4 &1094914550 stripped
@@ -4395,7 +4395,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &1130136033 stripped
@@ -4541,7 +4541,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &1201008420 stripped
@@ -4627,7 +4627,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &1272319273 stripped
@@ -4707,7 +4707,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &1346271712 stripped
@@ -4832,7 +4832,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 2942763733510193336, guid: 680664f0a5baead4db0dc5981718905b,
         type: 3}
       propertyPath: distancia.distancia
@@ -5007,7 +5007,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &1425912445 stripped
@@ -5087,7 +5087,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &1438890568 stripped
@@ -5169,16 +5169,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300002, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
+    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 1461999979267348923, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: movimentoX
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 1081473086}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a9f3720ba9d2df45a174439614c7fdc, type: 3}
 --- !u!4 &1449654464 stripped
@@ -5258,7 +5258,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &1450058589 stripped
@@ -5344,7 +5344,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7381660baa1e104094a234f64623d6d, type: 3}
 --- !u!4 &1474823564 stripped
@@ -5424,7 +5424,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 2942763733510193336, guid: 680664f0a5baead4db0dc5981718905b,
         type: 3}
       propertyPath: distancia.distancia
@@ -5519,7 +5519,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &1584557780 stripped
@@ -5599,7 +5599,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &1594385468 stripped
@@ -5679,7 +5679,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &1624677808 stripped
@@ -5761,6 +5761,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
+    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 1461999979267348923, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: movimentoX
@@ -5771,11 +5776,6 @@ PrefabInstance:
       propertyPath: aceleracaoMovimentoX
       value: 1.72
       objectReference: {fileID: 0}
-    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 1081473086}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a9f3720ba9d2df45a174439614c7fdc, type: 3}
 --- !u!4 &1646479704 stripped
@@ -5920,7 +5920,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &1674976291 stripped
@@ -6000,7 +6000,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 680664f0a5baead4db0dc5981718905b, type: 3}
 --- !u!1001 &1705252986
@@ -6074,7 +6074,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &1705252987 stripped
@@ -6213,22 +6213,22 @@ PrefabInstance:
     - target: {fileID: 2944161670763228482, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 72.4
+      value: 67.5
       objectReference: {fileID: 0}
     - target: {fileID: 2944161670763228482, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -162.8
+      value: -135.2
       objectReference: {fileID: 0}
     - target: {fileID: 2944161670763228482, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 124.8
+      value: 115
       objectReference: {fileID: 0}
     - target: {fileID: 2944161670763228482, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 305.6
+      value: 250.4
       objectReference: {fileID: 0}
     - target: {fileID: 2944161671019712285, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
@@ -6243,22 +6243,22 @@ PrefabInstance:
     - target: {fileID: 2944161671019712285, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 207.20001
+      value: 192.5
       objectReference: {fileID: 0}
     - target: {fileID: 2944161671019712285, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -162.8
+      value: -135.2
       objectReference: {fileID: 0}
     - target: {fileID: 2944161671019712285, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 124.8
+      value: 115
       objectReference: {fileID: 0}
     - target: {fileID: 2944161671019712285, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 305.6
+      value: 250.4
       objectReference: {fileID: 0}
     - target: {fileID: 2944161670074696787, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
@@ -6273,22 +6273,22 @@ PrefabInstance:
     - target: {fileID: 2944161670074696787, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 342
+      value: 317.5
       objectReference: {fileID: 0}
     - target: {fileID: 2944161670074696787, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -162.8
+      value: -135.2
       objectReference: {fileID: 0}
     - target: {fileID: 2944161670074696787, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 124.8
+      value: 115
       objectReference: {fileID: 0}
     - target: {fileID: 2944161670074696787, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 305.6
+      value: 250.4
       objectReference: {fileID: 0}
     - target: {fileID: 2944161671105207540, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
@@ -6303,22 +6303,22 @@ PrefabInstance:
     - target: {fileID: 2944161671105207540, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 476.80002
+      value: 442.5
       objectReference: {fileID: 0}
     - target: {fileID: 2944161671105207540, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -162.8
+      value: -135.2
       objectReference: {fileID: 0}
     - target: {fileID: 2944161671105207540, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 124.8
+      value: 115
       objectReference: {fileID: 0}
     - target: {fileID: 2944161671105207540, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 305.6
+      value: 250.4
       objectReference: {fileID: 0}
     - target: {fileID: 2944161671484081368, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
@@ -6333,22 +6333,22 @@ PrefabInstance:
     - target: {fileID: 2944161671484081368, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 611.60004
+      value: 567.5
       objectReference: {fileID: 0}
     - target: {fileID: 2944161671484081368, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -162.8
+      value: -135.2
       objectReference: {fileID: 0}
     - target: {fileID: 2944161671484081368, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 124.8
+      value: 115
       objectReference: {fileID: 0}
     - target: {fileID: 2944161671484081368, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 305.6
+      value: 250.4
       objectReference: {fileID: 0}
     - target: {fileID: 2944161669527004412, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
@@ -6363,22 +6363,22 @@ PrefabInstance:
     - target: {fileID: 2944161669527004412, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 746.4
+      value: 692.5
       objectReference: {fileID: 0}
     - target: {fileID: 2944161669527004412, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -162.8
+      value: -135.2
       objectReference: {fileID: 0}
     - target: {fileID: 2944161669527004412, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 124.8
+      value: 115
       objectReference: {fileID: 0}
     - target: {fileID: 2944161669527004412, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 305.6
+      value: 250.4
       objectReference: {fileID: 0}
     - target: {fileID: 2944161671326549386, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
@@ -6393,22 +6393,22 @@ PrefabInstance:
     - target: {fileID: 2944161671326549386, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 881.2
+      value: 817.5
       objectReference: {fileID: 0}
     - target: {fileID: 2944161671326549386, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -162.8
+      value: -135.2
       objectReference: {fileID: 0}
     - target: {fileID: 2944161671326549386, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 124.8
+      value: 115
       objectReference: {fileID: 0}
     - target: {fileID: 2944161671326549386, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 305.6
+      value: 250.4
       objectReference: {fileID: 0}
     - target: {fileID: 2944161670911327386, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
@@ -6423,22 +6423,22 @@ PrefabInstance:
     - target: {fileID: 2944161670911327386, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1016
+      value: 942.5
       objectReference: {fileID: 0}
     - target: {fileID: 2944161670911327386, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -162.8
+      value: -135.2
       objectReference: {fileID: 0}
     - target: {fileID: 2944161670911327386, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 124.8
+      value: 115
       objectReference: {fileID: 0}
     - target: {fileID: 2944161670911327386, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 305.6
+      value: 250.4
       objectReference: {fileID: 0}
     - target: {fileID: 2944161671407389084, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
@@ -6453,22 +6453,22 @@ PrefabInstance:
     - target: {fileID: 2944161671407389084, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1150.8
+      value: 1067.5
       objectReference: {fileID: 0}
     - target: {fileID: 2944161671407389084, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -162.8
+      value: -135.2
       objectReference: {fileID: 0}
     - target: {fileID: 2944161671407389084, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 124.8
+      value: 115
       objectReference: {fileID: 0}
     - target: {fileID: 2944161671407389084, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 305.6
+      value: 250.4
       objectReference: {fileID: 0}
     - target: {fileID: 2944161670305170420, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
@@ -6483,25 +6483,31 @@ PrefabInstance:
     - target: {fileID: 2944161670305170420, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1285.6001
+      value: 1192.5
       objectReference: {fileID: 0}
     - target: {fileID: 2944161670305170420, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -162.8
+      value: -135.2
       objectReference: {fileID: 0}
     - target: {fileID: 2944161670305170420, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 124.8
+      value: 115
       objectReference: {fileID: 0}
     - target: {fileID: 2944161670305170420, guid: d51b7ea8632cf5949b6e884d9225dfda,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 305.6
+      value: 250.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d51b7ea8632cf5949b6e884d9225dfda, type: 3}
+--- !u!1 &1732365652 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2944161669696577539, guid: d51b7ea8632cf5949b6e884d9225dfda,
+    type: 3}
+  m_PrefabInstance: {fileID: 1732365651}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1787367620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6573,7 +6579,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 2942763733510193336, guid: 680664f0a5baead4db0dc5981718905b,
         type: 3}
       propertyPath: distancia.distancia
@@ -6664,6 +6670,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 917370675637876025, guid: 4ad70f92e0e3c47439b3f5ea4226fabd,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 1561235342997399557, guid: 4ad70f92e0e3c47439b3f5ea4226fabd,
         type: 3}
       propertyPath: distancia.distancia
@@ -6679,11 +6690,6 @@ PrefabInstance:
       propertyPath: previsualizar
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 917370675637876025, guid: 4ad70f92e0e3c47439b3f5ea4226fabd,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 1081473086}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &1802427056 stripped
@@ -6763,7 +6769,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &1865628718 stripped
@@ -6942,7 +6948,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 8715310444968687619, guid: 448fe6b0e1493874cababb2dff5ca33b,
         type: 3}
       propertyPath: m_Sprite
@@ -7028,7 +7034,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 680664f0a5baead4db0dc5981718905b, type: 3}
 --- !u!4 &1892868239 stripped
@@ -7108,7 +7114,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &1904702190 stripped
@@ -7188,7 +7194,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!1001 &1926574843
@@ -7262,7 +7268,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &1926574844 stripped
@@ -7342,7 +7348,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 8715310444968687619, guid: 448fe6b0e1493874cababb2dff5ca33b,
         type: 3}
       propertyPath: m_Sprite
@@ -7565,7 +7571,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &1951018174 stripped
@@ -7651,7 +7657,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &1956649504 stripped
@@ -7734,6 +7740,12 @@ PrefabInstance:
       objectReference: {fileID: 1081473086}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66f2a98823af5af4e8aa2f1a2f9d8063, type: 3}
+--- !u!4 &1964050299 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 536027586607943826, guid: 66f2a98823af5af4e8aa2f1a2f9d8063,
+    type: 3}
+  m_PrefabInstance: {fileID: 1964050298}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1975965841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7805,7 +7817,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 680664f0a5baead4db0dc5981718905b, type: 3}
 --- !u!4 &1975965842 stripped
@@ -7885,7 +7897,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &2009215888 stripped
@@ -7965,7 +7977,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &2023150347 stripped
@@ -8045,7 +8057,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     - target: {fileID: 2942763733510193336, guid: 680664f0a5baead4db0dc5981718905b,
         type: 3}
       propertyPath: distancia.distancia
@@ -8140,7 +8152,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &2043217030 stripped
@@ -8265,7 +8277,17 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
+    - target: {fileID: 7744319854982131183, guid: e15ca46733368f143b68740c0bddbe49,
+        type: 3}
+      propertyPath: evt.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1732365652}
+    - target: {fileID: 7744319854982131183, guid: e15ca46733368f143b68740c0bddbe49,
+        type: 3}
+      propertyPath: evt.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e15ca46733368f143b68740c0bddbe49, type: 3}
 --- !u!1001 &2064168690
@@ -8339,7 +8361,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &2064168691 stripped
@@ -8419,7 +8441,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alvo_tr
       value: 
-      objectReference: {fileID: 1081473086}
+      objectReference: {fileID: 1964050299}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad70f92e0e3c47439b3f5ea4226fabd, type: 3}
 --- !u!4 &2089877132 stripped

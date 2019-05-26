@@ -131,7 +131,7 @@ MonoBehaviour:
     deslocamento: {x: 0, y: 0}
     metodo: 2
   destrutivel: 1
-  previsualizar: 0
+  previsualizar: 1
 --- !u!58 &8006407872704870320
 CircleCollider2D:
   m_ObjectHideFlags: 0

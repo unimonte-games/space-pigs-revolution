@@ -7,28 +7,28 @@ public class DestroiseQndInvisivel : MonoBehaviour
     public ComparadorDistancia distancia;
     public bool destrutivel;
     Transform cam, tr;
-    
+
     void Start()
     {
         cam = Camera.main.GetComponent<Transform>();
         tr  = GetComponent<Transform>();
-        StartCoroutine(Co_Update());
+        //StartCoroutine(Co_Update());
     }
 
-    IEnumerator Co_Update()
+    void Update()
     {
-        while (true)
-        {
+//        while (true)
+//        {
             if (cam != null && tr != null)
             {
                 if (!DentroDaDistancia(cam, tr) && destrutivel)
                 {
                     Destroy(gameObject);
-                    break;
+                    //break;
                 }
             }
-            yield return new WaitForSeconds(0.25f);
-        }
+//            yield return new WaitForSeconds(0.25f);
+//        }
     }
 
     bool DentroDaDistancia(Transform _cam, Transform _tr)
@@ -52,7 +52,7 @@ public class DestroiseQndInvisivel : MonoBehaviour
         if (_cam == null || !previsualizar)
             return;
 
-        Gizmos.color = 
+        Gizmos.color =
             DentroDaDistancia(_cam, transform)
                 ? new Color(0, 1, 1)
                 : new Color(1, 0, 1)

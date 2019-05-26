@@ -6,8 +6,8 @@ public class MovimentoJogador : MonoBehaviour
 {
     Transform tr;
     public float velY;
-    public bool movimentarSeVertical = true;
     DiarioPn diario;
+    bool numaPergunta;
 
     float ObtemPosicaoX(float antes)
     {
@@ -15,13 +15,22 @@ public class MovimentoJogador : MonoBehaviour
             return Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
         else
             return antes;
+    }
 
-        // var toques = Input.touches;
+    Vector3 ObtemPosicaoVertical(Vector3 antes)
+    {
+        if (Input.GetMouseButton(0))
+        {
+            //return Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
+            var camPos = Camera.main.transform.position;
+            var ponteiroPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        // if (toques.Length == 0)
-        //     return antes;
+            var diffPos = ponteiroPos - camPos;
 
-        // return toques[0].position.x;
+            return camPos + diffPos;
+        }
+        else
+            return antes;
     }
 
     void Awake()
@@ -37,16 +46,22 @@ public class MovimentoJogador : MonoBehaviour
 
         var pos = tr.position;
 
-        pos.x = ObtemPosicaoX(pos.x);
 
-        if (movimentarSeVertical)
-            pos.y += velY * Time.deltaTime;
+        if (!numaPergunta)
+        {
+          pos.x = ObtemPosicaoX(pos.x);
+          pos = ObtemPosicaoVertical(pos);
+        }
+
+        pos.y += velY * Time.deltaTime;
+
+        pos.z = 0;
 
         tr.position = pos;
     }
 
-    public void DefinirMovimentarSeVertical(bool def)
+    public void EntrarEmPergunta()
     {
-        movimentarSeVertical = def;
+      numaPergunta = true;
     }
 }

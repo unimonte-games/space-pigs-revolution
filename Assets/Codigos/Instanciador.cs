@@ -59,13 +59,7 @@ public class Instanciador : MonoBehaviour
     bool DeveAtirar()
     {
         if (gameObject.CompareTag("Player"))
-        {
-#if UNITY_STANDALONE || UNITY_WEBGL
             return Input.GetMouseButton(0);
-#else
-            return Input.touches.Length > 0;
-#endif
-        }
         else
             return atirar;
     }

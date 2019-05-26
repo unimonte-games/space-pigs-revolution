@@ -6,20 +6,20 @@ public class MultiplicadorSetor : MonoBehaviour
 {
     public float tamanhoSetor;
     public SpriteRenderer fundoEstrelas;
-    Transform tr, jogador_tr, estrelas_tr;
+    Transform tr, cam_tr, estrelas_tr;
 
     void Awake()
     {
         tr = GetComponent<Transform>();
-        jogador_tr = GameObject.FindWithTag("Player").transform;
+        cam_tr = Camera.main.transform;
         estrelas_tr = fundoEstrelas.transform;
     }
 
     void Update()
     {
-        AtualizaTamanhoFundo(fundoEstrelas, tamanhoSetor + jogador_tr.position.y * 0.4f);
+        AtualizaTamanhoFundo(fundoEstrelas, tamanhoSetor + cam_tr.position.y * 0.4f);
         var estrelas_pos = estrelas_tr.position;
-        estrelas_pos.y = jogador_tr.position.y;
+        estrelas_pos.y = cam_tr.position.y;
         estrelas_tr.position = estrelas_pos;
     }
 
