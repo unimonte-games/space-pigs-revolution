@@ -48,8 +48,6 @@ public class MultiplicadorSetor : MonoBehaviour
             pos.y = tamanhoSetor * i;
             child.localPosition = pos;
         }
-
-        Coreografia.DEBUG_AtualizaPreverTrs();
     }
 
     Vector3[] posicoes_setor = new Vector3[0];

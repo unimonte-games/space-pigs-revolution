@@ -186,16 +186,6 @@ public class Coreografia : MonoBehaviour
 
 #if UNITY_EDITOR
 
-    [ContextMenu("Atualiza Pré-visualização")]
-    void _DEBUG_AtualizaPreverTrs() { DEBUG_AtualizaPreverTrs(); }
-
-    public static void DEBUG_AtualizaPreverTrs()
-    {
-        var coreos = FindObjectsOfType<Coreografia>();
-        for (int i = 0; i < coreos.Length; i++)
-            coreos[i].DEBUG_AtualizaPreverTr();
-    }
-
     void DEBUG_AtualizaPreverTr()
     {
         prever_posTr = transform.position;
@@ -207,8 +197,6 @@ public class Coreografia : MonoBehaviour
         init_frequenciaEfeito  = frequenciaEfeito ;
         init_intensidadeEfeito = intensidadeEfeito;
     }
-
-    void OnValidate() { if (usarOnValidate) DEBUG_AtualizaPreverTrs(); }
 
     void OnDrawGizmos()
     {
