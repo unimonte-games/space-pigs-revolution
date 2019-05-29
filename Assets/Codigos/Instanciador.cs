@@ -17,11 +17,11 @@ public class Instanciador : MonoBehaviour
     public bool atirar {get; set;}
     public PosicoesRotacoes[] posicoesRotacoes;
 
-    DiarioPn diario;
+    GerenciadorJogo gerenJogo;
 
     void Awake()
     {
-        diario = FindObjectOfType<DiarioPn>();
+        gerenJogo = FindObjectOfType<GerenciadorJogo>();
     }
 
     // Start is called before the first frame update
@@ -38,7 +38,7 @@ public class Instanciador : MonoBehaviour
 
         while (true)
         {
-            if (!diario.aberto && DeveAtirar() && enabled)
+            if (!gerenJogo.pausado && DeveAtirar() && enabled)
             {
                 for (int i = 0; i < posicoesRotacoes.Length; i++)
                 {

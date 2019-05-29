@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7538121276774539374}
   - component: {fileID: 4028484154406280980}
   - component: {fileID: 6557907972469097213}
+  - component: {fileID: 6849760153910385927}
   m_Layer: 0
   m_Name: protojogador
   m_TagString: Player
@@ -62,6 +63,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -98,7 +100,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velY: 5
-  movimentarSeVertical: 1
 --- !u!114 &6485643158969273891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,3 +181,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &6849760153910385927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485643158969273892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edec4692249f034084abd9a808fff08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: {fileID: 3273299084950716753}
+  acabou: 0

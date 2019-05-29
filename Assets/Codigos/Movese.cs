@@ -8,17 +8,17 @@ public class Movese : MonoBehaviour
 
     Transform tr;
 
-    DiarioPn diario;
+    GerenciadorJogo gerenJogo;
 
     void Awake()
     {
-        diario = FindObjectOfType<DiarioPn>();
+        gerenJogo = FindObjectOfType<GerenciadorJogo>();
         tr = GetComponent<Transform>();
     }
 
     void Update()
     {
-        if (diario.aberto)
+        if (gerenJogo.pausado)
             return;
 
         var pos = tr.position;

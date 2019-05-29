@@ -4,17 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class DiarioBt : MonoBehaviour, IPointerEnterHandler
+public class DiarioBt : MonoBehaviour//, IPointerEnterHandler
 {
-    public DiarioPn diario;
+    public bool mouseEmCima;
 
-    public void OnPointerEnter(PointerEventData eventData)
+    public void DefMouseEmCima(bool def)
     {
-        //diario.mouseEmCima = true;
-    }
-
-    public void OnPointerExit(PointerEventData eventData)
-    {
-        //diario.mouseEmCima = false;
+        mouseEmCima = def;
     }
 }

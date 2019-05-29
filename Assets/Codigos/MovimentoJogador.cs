@@ -6,7 +6,9 @@ public class MovimentoJogador : MonoBehaviour
 {
     Transform tr;
     public float velY;
-    DiarioPn diario;
+    GerenciadorJogo gerenJogo;
+    DiarioBt diarioBt;
+
     bool numaPergunta;
 
     float ObtemPosicaoX(float antes)
@@ -36,21 +38,22 @@ public class MovimentoJogador : MonoBehaviour
     void Awake()
     {
         tr = GetComponent<Transform>();
-        diario = FindObjectOfType<DiarioPn>();
+        gerenJogo = FindObjectOfType<GerenciadorJogo>();
+        diarioBt = FindObjectOfType<DiarioBt>();
     }
 
     void Update()
     {
-        if (diario.aberto)
+        if (gerenJogo.pausado)
             return;
 
         var pos = tr.position;
 
 
-        if (!numaPergunta)
+        if (!numaPergunta && !diarioBt.mouseEmCima)
         {
           pos.x = ObtemPosicaoX(pos.x);
-          pos = ObtemPosicaoVertical(pos);
+            pos = ObtemPosicaoVertical(pos);
         }
 
         pos.y += velY * Time.deltaTime;

@@ -25,6 +25,9 @@ public class PnTween : MonoBehaviour
         }
     }
 
+#if UNITY_EDITOR
+    [ContextMenu("Alternar")]
+#endif
     public void Alternar()
     {
         Alternar(!aberto);
