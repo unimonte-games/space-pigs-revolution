@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class VidaMaxJogador : MonoBehaviour
 {
-    public static int vidaMax = 15;
+    public static int vidaMax = 8;
 
 
     void Awake()
