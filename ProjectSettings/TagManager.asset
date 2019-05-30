@@ -47,11 +47,14 @@ TagManager:
   - name: fundo
     uniqueID: 4192775677
     locked: 0
-  - name: Jogador
-    uniqueID: 1695466085
-    locked: 0
   - name: Inimigos
     uniqueID: 2695554641
+    locked: 0
+  - name: Chefao
+    uniqueID: 2641130729
+    locked: 0
+  - name: Jogador
+    uniqueID: 1695466085
     locked: 0
   - name: Tiros
     uniqueID: 667320333

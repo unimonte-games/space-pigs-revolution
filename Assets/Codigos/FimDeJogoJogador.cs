@@ -16,6 +16,8 @@ public class FimDeJogoJogador : MonoBehaviour
             var pnTw = pn_total.GetComponent<PnTween>();
             pnTw.Alternar(true);
             acabou = true;
+            var geren = FindObjectOfType<GerenciadorJogo>();
+            geren.DefFimDeJogo(true);
         }
     }
 }
