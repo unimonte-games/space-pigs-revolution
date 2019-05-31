@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MenuPn : MonoBehaviour
 {
-    public PnTween menuPn, botaoPn;
+    public PnTween menuPn;
     public DiarioPn diario;
     public bool aberto;
 
@@ -13,7 +13,6 @@ public class MenuPn : MonoBehaviour
     {
         aberto = !aberto;
         menuPn.Alternar(aberto);
-        botaoPn.Alternar(!aberto);
         diario.Alternar(!aberto);
     }
 }

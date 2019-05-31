@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FimDeJogoJogador : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class FimDeJogoJogador : MonoBehaviour
         {
             var canvasFJ = GameObject.Find("Canvas Game Over");
             var pn_total = canvasFJ.transform.Find("Pn Total");
+            pn_total.Find("Bt Menu").GetComponent<Button>().interactable = true;
             var pnTw = pn_total.GetComponent<PnTween>();
             pnTw.Alternar(true);
             acabou = true;

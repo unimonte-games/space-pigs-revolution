@@ -2270,16 +2270,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300002, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
-    - target: {fileID: 1461999979267348923, guid: 4a9f3720ba9d2df45a174439614c7fdc,
-        type: 3}
-      propertyPath: aceleracaoMovimentoX
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: alvo_tr
       value: 
       objectReference: {fileID: 1013367687}
+    - target: {fileID: 1461999979267348923, guid: 4a9f3720ba9d2df45a174439614c7fdc,
+        type: 3}
+      propertyPath: aceleracaoMovimentoX
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a9f3720ba9d2df45a174439614c7fdc, type: 3}
 --- !u!4 &641626606 stripped
@@ -2650,6 +2650,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856785587281069480, guid: 03fecf766940581498a28d0a4145acdd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IrParaFase
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856785587281069480, guid: 03fecf766940581498a28d0a4145acdd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856785587281069480, guid: 03fecf766940581498a28d0a4145acdd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Chefao 04
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03fecf766940581498a28d0a4145acdd, type: 3}
@@ -3471,6 +3486,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300004, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
+    - target: {fileID: 3575410336712050869, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 1013367687}
     - target: {fileID: 7819418557016913243, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
       propertyPath: movimentoX
@@ -3486,11 +3506,6 @@ PrefabInstance:
       propertyPath: intensidadeEfeito.x
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 3575410336712050869, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 1013367687}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3ed54dbdc2115f4ea58410cdeef77f8, type: 3}
 --- !u!4 &853660737 stripped
@@ -4100,6 +4115,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
+    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 1013367687}
     - target: {fileID: 1461999979267348923, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: aceleracaoMovimentoX
@@ -4110,11 +4130,6 @@ PrefabInstance:
       propertyPath: movimentoX
       value: -4.11
       objectReference: {fileID: 0}
-    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 1013367687}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a9f3720ba9d2df45a174439614c7fdc, type: 3}
 --- !u!4 &1152035891 stripped
@@ -4395,6 +4410,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300004, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
+    - target: {fileID: 3575410336712050869, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 1013367687}
     - target: {fileID: 7819418557016913243, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
       propertyPath: movimentoX
@@ -4410,11 +4430,6 @@ PrefabInstance:
       propertyPath: intensidadeEfeito.x
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 3575410336712050869, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 1013367687}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3ed54dbdc2115f4ea58410cdeef77f8, type: 3}
 --- !u!4 &1359758275 stripped
@@ -4929,6 +4944,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300004, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
+    - target: {fileID: 3575410336712050869, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 1013367687}
     - target: {fileID: 7819418557016913243, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
       propertyPath: movimentoX
@@ -4944,11 +4964,6 @@ PrefabInstance:
       propertyPath: prever_Tamanho
       value: 120
       objectReference: {fileID: 0}
-    - target: {fileID: 3575410336712050869, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 1013367687}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3ed54dbdc2115f4ea58410cdeef77f8, type: 3}
 --- !u!4 &1636179372 stripped
@@ -5196,6 +5211,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
+    - target: {fileID: 3575410336712050869, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 1013367687}
     - target: {fileID: 7819418557016913243, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
       propertyPath: movimentoX
@@ -5211,11 +5231,6 @@ PrefabInstance:
       propertyPath: intensidadeEfeito.x
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 3575410336712050869, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 1013367687}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3ed54dbdc2115f4ea58410cdeef77f8, type: 3}
 --- !u!4 &1884001853 stripped

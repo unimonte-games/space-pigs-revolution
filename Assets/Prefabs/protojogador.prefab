@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 4028484154406280980}
   - component: {fileID: 6557907972469097213}
   - component: {fileID: 6849760153910385927}
+  - component: {fileID: 8923341389915829121}
   m_Layer: 0
   m_Name: protojogador
   m_TagString: Player
@@ -195,3 +196,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vida: {fileID: 3273299084950716753}
   acabou: 0
+--- !u!95 &8923341389915829121
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485643158969273892}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5c4efd970887f314ba25d030ce463357, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

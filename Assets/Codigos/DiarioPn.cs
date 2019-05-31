@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class DiarioPn : MonoBehaviour
 {
@@ -26,7 +27,8 @@ public class DiarioPn : MonoBehaviour
     public void Alternar(bool def)
     {
         aberto = def;
-        gerenJogo.pausado = def;
         pn.Alternar(aberto);
+        if (SceneManager.GetActiveScene().name != "Menu")
+            gerenJogo.pausado = def;
     }
 }
