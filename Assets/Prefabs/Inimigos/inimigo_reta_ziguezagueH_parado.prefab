@@ -67,15 +67,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+    - target: {fileID: 4336981715215845348, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
-      propertyPath: previsualizar
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: evt.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
-      value: 1.6
+      propertyPath: vida
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
@@ -116,6 +111,16 @@ PrefabInstance:
         type: 3}
       propertyPath: movimentoY
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: previsualizar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533002445310433835, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: evt.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
+      value: 1.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f9aba78367b63d419c5f9605398913c, type: 3}

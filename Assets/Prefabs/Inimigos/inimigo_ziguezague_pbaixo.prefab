@@ -7,11 +7,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 9096505094161098692, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: m_Name
-      value: inimigo_ziguezague_pbaixo
-      objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098695, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -66,6 +61,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096505094161098692, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: m_Name
+      value: inimigo_ziguezague_pbaixo
       objectReference: {fileID: 0}
     - target: {fileID: 4336981715215845348, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
