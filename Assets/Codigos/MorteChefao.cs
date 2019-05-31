@@ -46,7 +46,7 @@ public class MorteChefao : MonoBehaviour
 
         j_anim.SetTrigger("Rodopio");
 
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1.6f);
 
         var pntr = GameObject
             .Find("Canvas FinalChefao")

@@ -5,22 +5,28 @@ using UnityEngine;
 public class MultiplicadorSetor : MonoBehaviour
 {
     public float tamanhoSetor;
-    public SpriteRenderer fundoEstrelas;
-    Transform tr, cam_tr, estrelas_tr;
+    public SpriteRenderer fundoEstrelas, fundoPlaneta;
+    Transform tr, cam_tr, estrelas_tr, planeta_tr;
 
     void Awake()
     {
         tr = GetComponent<Transform>();
         cam_tr = Camera.main.transform;
         estrelas_tr = fundoEstrelas.transform;
+        planeta_tr = fundoPlaneta.transform;
     }
 
     void Update()
     {
         AtualizaTamanhoFundo(fundoEstrelas, tamanhoSetor + cam_tr.position.y * 0.4f);
+
         var estrelas_pos = estrelas_tr.position;
         estrelas_pos.y = cam_tr.position.y;
         estrelas_tr.position = estrelas_pos;
+
+        var planeta_pos = planeta_tr.position;
+        planeta_pos.y = (cam_tr.position.y*0.98f) - 3f;
+        planeta_tr.position = planeta_pos;
     }
 
     void AtualizaTamanhoFundo(SpriteRenderer fundo, float tamanho)

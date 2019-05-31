@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class DiarioBt : MonoBehaviour//, IPointerEnterHandler
+public class DiarioBt : MonoBehaviour
 {
     public bool mouseEmCima;
 

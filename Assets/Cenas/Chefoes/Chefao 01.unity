@@ -611,6 +611,11 @@ PrefabInstance:
       propertyPath: gbj_tr
       value: 
       objectReference: {fileID: 970643392}
+    - target: {fileID: 9218333947955313732, guid: 66f2a98823af5af4e8aa2f1a2f9d8063,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6d26b3659e5657c479562db8ecd15abf, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66f2a98823af5af4e8aa2f1a2f9d8063, type: 3}
 --- !u!1001 &84264201
@@ -1168,6 +1173,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2215274082265995709, guid: ba4dcb1bc1805ae47a3703e202905d0f,
+        type: 3}
+      propertyPath: vida
+      value: 45
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba4dcb1bc1805ae47a3703e202905d0f, type: 3}
