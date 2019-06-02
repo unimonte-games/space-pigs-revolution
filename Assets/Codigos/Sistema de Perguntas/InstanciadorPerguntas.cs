@@ -26,9 +26,14 @@ public class InstanciadorPerguntas : MonoBehaviour
         tr = GetComponent<Transform>();
         rtr = GetComponent<RectTransform>();
 
-        perguntaTxt = tr.Find("Pn Pergunta").Find("Txt Pergunta").GetComponent<Text>();
+        var pn_perguntas_alternativas = tr.Find("pn pergunta toda").Find("pn pergunta alternativas");
 
-        var tr_alternativas = tr.Find("Pn Txts Alternativas");
+        perguntaTxt = pn_perguntas_alternativas
+            .Find("Pn Pergunta")
+            .Find("Txt Pergunta")
+            .GetComponent<Text>();
+
+        var tr_alternativas = pn_perguntas_alternativas.Find("Pn Alternativas");
         for (byte i = 0; i < BancoDePerguntas.QTD_ALTERNATIVAS; i++)
         {
             var alternativaNome = string.Concat("Txt Alternativa ", letrasAlternativas[i]);
@@ -42,7 +47,7 @@ public class InstanciadorPerguntas : MonoBehaviour
         perguntaTxt.text = pergunta.pergunta;
 
         for (byte i = 0; i < BancoDePerguntas.QTD_ALTERNATIVAS; i++)
-            alternativasTxts[i].text = pergunta.alternativas[i];
+            alternativasTxts[i].text = string.Concat("<b>", letrasAlternativas[i], "</b> - ", pergunta.alternativas[i]);
 
         GetComponent<SistemaPerguntas>().DefinirPerguntaEmUso(pergunta);
     }
