@@ -5,6 +5,7 @@ using UnityEngine;
 public class Vida : MonoBehaviour
 {
     public int vida;
+    public AudioSource audio;
 
 
     /// Desconta vida pelo dano,
@@ -15,6 +16,10 @@ public class Vida : MonoBehaviour
     {
         // TODO: Implementar efeito de escudo
         vida -= dano;
+
+        if (audio != null)
+            audio.Play();
+
         return dano;
     }
 }

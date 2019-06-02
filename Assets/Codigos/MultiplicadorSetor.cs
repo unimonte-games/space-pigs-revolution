@@ -18,14 +18,14 @@ public class MultiplicadorSetor : MonoBehaviour
 
     void Update()
     {
-        AtualizaTamanhoFundo(fundoEstrelas, tamanhoSetor + cam_tr.position.y * 0.4f);
+        AtualizaTamanhoFundo(fundoEstrelas, tamanhoSetor + cam_tr.position.y * 0.06f);
 
         var estrelas_pos = estrelas_tr.position;
         estrelas_pos.y = cam_tr.position.y;
         estrelas_tr.position = estrelas_pos;
 
         var planeta_pos = planeta_tr.position;
-        planeta_pos.y = (cam_tr.position.y*0.98f) - 3f;
+        planeta_pos.y = (cam_tr.position.y*0.95f) + 12f;
         planeta_tr.position = planeta_pos;
     }
 
