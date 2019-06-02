@@ -79,7 +79,6 @@ public class Coreografia : MonoBehaviour
 #endif
 
     Transform tr;
-    Transform jogador_tr;
     float efeitoFator = 0f;
     float dirTempo = -1;
 
@@ -87,9 +86,6 @@ public class Coreografia : MonoBehaviour
     {
         gerenJogo = FindObjectOfType<GerenciadorJogo>();
         tr = GetComponent<Transform>();
-        jogador_tr = GameObject
-            .FindWithTag("Player")
-            .GetComponent<Transform>();
 
 #if UNITY_EDITOR
         DEBUG_AtualizaPreverTr();
@@ -184,7 +180,14 @@ public class Coreografia : MonoBehaviour
         intensidadeEfeito += Vector2.one * aceleracaoIntensidadeEfeito * Time.deltaTime;
     }
 
+
 #if UNITY_EDITOR
+
+    void OnValidate()
+    {
+        if (usarOnValidate)
+            DEBUG_AtualizaPreverTr();
+    }
 
     void DEBUG_AtualizaPreverTr()
     {
