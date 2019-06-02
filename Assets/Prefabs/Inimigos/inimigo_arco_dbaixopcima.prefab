@@ -7,11 +7,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 9096505094161098692, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: m_Name
-      value: inimigo_arco_dbaixopcima
-      objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098695, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -47,15 +42,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3452126917554867632, guid: 5f9aba78367b63d419c5f9605398913c,
+    - target: {fileID: 9096505094161098692, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
-      propertyPath: distancia.distancia
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 3452126917554867632, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: distancia.deslocamento.y
-      value: -2.78
+      propertyPath: m_Name
+      value: inimigo_arco_dbaixopcima
       objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
@@ -106,6 +96,21 @@ PrefabInstance:
         type: 3}
       propertyPath: prever_Cor.g
       value: 0.70490646
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452126917554867632, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: distancia.distancia
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452126917554867632, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: distancia.deslocamento.y
+      value: -2.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 2686312241316230220, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: intervalo
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f9aba78367b63d419c5f9605398913c, type: 3}
