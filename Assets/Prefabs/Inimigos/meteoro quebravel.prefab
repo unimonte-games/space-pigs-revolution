@@ -27,12 +27,12 @@ PrefabInstance:
     - target: {fileID: 5314983581294260077, guid: 4ad70f92e0e3c47439b3f5ea4226fabd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.549999
+      value: -5.5
       objectReference: {fileID: 0}
     - target: {fileID: 5314983581294260077, guid: 4ad70f92e0e3c47439b3f5ea4226fabd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.9000015
+      value: -8.5
       objectReference: {fileID: 0}
     - target: {fileID: 5314983581294260077, guid: 4ad70f92e0e3c47439b3f5ea4226fabd,
         type: 3}
@@ -52,12 +52,12 @@ PrefabInstance:
     - target: {fileID: 5314983581294260077, guid: 4ad70f92e0e3c47439b3f5ea4226fabd,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.6087605
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5314983581294260077, guid: 4ad70f92e0e3c47439b3f5ea4226fabd,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.79335415
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5314983581294260077, guid: 4ad70f92e0e3c47439b3f5ea4226fabd,
         type: 3}
@@ -77,17 +77,12 @@ PrefabInstance:
     - target: {fileID: 5314983581294260077, guid: 4ad70f92e0e3c47439b3f5ea4226fabd,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 75
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7185589937021362931, guid: 4ad70f92e0e3c47439b3f5ea4226fabd,
         type: 3}
       propertyPath: m_Name
-      value: meteoro quebravel (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2248818840962695677, guid: 4ad70f92e0e3c47439b3f5ea4226fabd,
-        type: 3}
-      propertyPath: vel.y
-      value: 2.5
+      value: meteoro quebravel (12)
       objectReference: {fileID: 0}
     - target: {fileID: 479145183856445525, guid: 4ad70f92e0e3c47439b3f5ea4226fabd,
         type: 3}
