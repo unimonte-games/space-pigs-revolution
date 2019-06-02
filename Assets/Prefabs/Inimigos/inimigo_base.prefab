@@ -317,6 +317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 3
+  audio: {fileID: 4572183668569696700}
 --- !u!58 &2070933798462033827
 CircleCollider2D:
   m_ObjectHideFlags: 0
