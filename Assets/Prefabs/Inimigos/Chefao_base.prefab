@@ -739,7 +739,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1563260040230536422}
-  - component: {fileID: 7323834971681043659}
   - component: {fileID: 7173837824783616477}
   m_Layer: 0
   m_Name: sprite
@@ -762,14 +761,6 @@ Transform:
   m_Father: {fileID: 9014726908442800926}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!222 &7323834971681043659
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7087337759329362623}
-  m_CullTransparentMesh: 0
 --- !u!212 &7173837824783616477
 SpriteRenderer:
   m_ObjectHideFlags: 0
