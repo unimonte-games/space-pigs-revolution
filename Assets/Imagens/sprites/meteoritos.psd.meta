@@ -108,17 +108,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 269
-        width: 282
-        height: 231
+        y: 197
+        width: 268
+        height: 303
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab5b472f421f7bc40bf2a5c9c8d99f65
+      spriteID: 3e4cdaeefa5eca14aa44efbadb741742
       internalID: 21300000
       vertices: []
       indices: 
@@ -128,18 +128,18 @@ TextureImporter:
       name: meteoritos_1
       rect:
         serializedVersion: 2
-        x: 296
-        y: 263
-        width: 242
-        height: 237
+        x: 305
+        y: 232
+        width: 223
+        height: 225
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 760774824058dd94baf6dbef73bb671a
+      spriteID: 3bba2596924b8a64099d36af24c281ca
       internalID: 21300002
       vertices: []
       indices: 
