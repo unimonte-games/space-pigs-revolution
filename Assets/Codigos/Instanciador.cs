@@ -38,7 +38,7 @@ public class Instanciador : MonoBehaviour
 
         while (true)
         {
-            if (!gerenJogo.pausado && DeveAtirar() && enabled)
+            if (!gerenJogo.pausado && !gerenJogo.emPergunta && DeveAtirar() && enabled)
             {
                 for (int i = 0; i < posicoesRotacoes.Length; i++)
                 {

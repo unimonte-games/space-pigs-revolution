@@ -757,6 +757,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1819152790}
     m_Modifications:
+    - target: {fileID: 1461999979267348922, guid: 4a9f3720ba9d2df45a174439614c7fdc,
+        type: 3}
+      propertyPath: m_Name
+      value: inimigo_ziguezagueHV_parado (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 1461999979267348921, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -812,22 +817,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1461999979267348922, guid: 4a9f3720ba9d2df45a174439614c7fdc,
-        type: 3}
-      propertyPath: m_Name
-      value: inimigo_ziguezagueHV_parado (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 1461999979267348920, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
-    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 574632209}
     - target: {fileID: 1461999979267348923, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: prever_Tamanho
@@ -848,6 +843,11 @@ PrefabInstance:
       propertyPath: aceleracaoMovimentoX
       value: 1.72
       objectReference: {fileID: 0}
+    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 574632209}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a9f3720ba9d2df45a174439614c7fdc, type: 3}
 --- !u!4 &163026716 stripped
@@ -1663,11 +1663,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 94832636}
     m_Modifications:
-    - target: {fileID: 7819418557016913242, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
-        type: 3}
-      propertyPath: m_Name
-      value: inimigo_reta_ziguezagueH_parado (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 7819418557016913241, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1722,6 +1717,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819418557016913242, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
+        type: 3}
+      propertyPath: m_Name
+      value: inimigo_reta_ziguezagueH_parado (6)
       objectReference: {fileID: 0}
     - target: {fileID: 7819418557016913240, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
@@ -2013,63 +2013,63 @@ PrefabInstance:
       propertyPath: m_Name
       value: fileirinha reta p baixo
       objectReference: {fileID: 0}
+    - target: {fileID: 6738752773792433718, guid: e83a6ac9a79e8c1478ae823df4128618,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 574632209}
+    - target: {fileID: 6738752773792433718, guid: e83a6ac9a79e8c1478ae823df4128618,
+        type: 3}
+      propertyPath: previsualizar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6738752774451915707, guid: e83a6ac9a79e8c1478ae823df4128618,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 574632209}
+    - target: {fileID: 6738752774451915707, guid: e83a6ac9a79e8c1478ae823df4128618,
+        type: 3}
+      propertyPath: previsualizar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6738752774680435501, guid: e83a6ac9a79e8c1478ae823df4128618,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 574632209}
+    - target: {fileID: 6738752774680435501, guid: e83a6ac9a79e8c1478ae823df4128618,
+        type: 3}
+      propertyPath: previsualizar
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 44636375806376923, guid: e83a6ac9a79e8c1478ae823df4128618,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
-    - target: {fileID: 6738752773792433718, guid: e83a6ac9a79e8c1478ae823df4128618,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 574632209}
-    - target: {fileID: 6738752773792433718, guid: e83a6ac9a79e8c1478ae823df4128618,
-        type: 3}
-      propertyPath: previsualizar
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 44636376453224022, guid: e83a6ac9a79e8c1478ae823df4128618,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300004, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
-    - target: {fileID: 6738752774451915707, guid: e83a6ac9a79e8c1478ae823df4128618,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 574632209}
-    - target: {fileID: 6738752774451915707, guid: e83a6ac9a79e8c1478ae823df4128618,
-        type: 3}
-      propertyPath: previsualizar
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 44636376694335168, guid: e83a6ac9a79e8c1478ae823df4128618,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300002, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
-    - target: {fileID: 6738752774680435501, guid: e83a6ac9a79e8c1478ae823df4128618,
+    - target: {fileID: 44636376694335169, guid: e83a6ac9a79e8c1478ae823df4128618,
         type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 574632209}
-    - target: {fileID: 6738752774680435501, guid: e83a6ac9a79e8c1478ae823df4128618,
-        type: 3}
-      propertyPath: previsualizar
-      value: 0
+      propertyPath: m_LocalPosition.x
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 44636376453224023, guid: e83a6ac9a79e8c1478ae823df4128618,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 44636376694335169, guid: e83a6ac9a79e8c1478ae823df4128618,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e83a6ac9a79e8c1478ae823df4128618, type: 3}
@@ -2252,11 +2252,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 94832636}
     m_Modifications:
-    - target: {fileID: 7819418557016913242, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
-        type: 3}
-      propertyPath: m_Name
-      value: inimigo_reta_ziguezagueH_parado (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 7819418557016913241, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2311,6 +2306,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819418557016913242, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
+        type: 3}
+      propertyPath: m_Name
+      value: inimigo_reta_ziguezagueH_parado (8)
       objectReference: {fileID: 0}
     - target: {fileID: 7819418557016913240, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
@@ -2670,6 +2670,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2098990059}
     m_Modifications:
+    - target: {fileID: 1461999979267348922, guid: 4a9f3720ba9d2df45a174439614c7fdc,
+        type: 3}
+      propertyPath: m_Name
+      value: inimigo_ziguezagueHV_parado (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 1461999979267348921, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2725,22 +2730,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1461999979267348922, guid: 4a9f3720ba9d2df45a174439614c7fdc,
-        type: 3}
-      propertyPath: m_Name
-      value: inimigo_ziguezagueHV_parado (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 1461999979267348920, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
-    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 574632209}
     - target: {fileID: 1461999979267348923, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: prever_Tamanho
@@ -2761,6 +2756,11 @@ PrefabInstance:
       propertyPath: aceleracaoMovimentoX
       value: 1.72
       objectReference: {fileID: 0}
+    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 574632209}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a9f3720ba9d2df45a174439614c7fdc, type: 3}
 --- !u!4 &566997382 stripped
@@ -3028,11 +3028,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2098990059}
     m_Modifications:
-    - target: {fileID: 7819418557016913242, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
-        type: 3}
-      propertyPath: m_Name
-      value: inimigo_reta_ziguezagueH_parado (11)
-      objectReference: {fileID: 0}
     - target: {fileID: 7819418557016913241, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3087,6 +3082,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819418557016913242, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
+        type: 3}
+      propertyPath: m_Name
+      value: inimigo_reta_ziguezagueH_parado (11)
       objectReference: {fileID: 0}
     - target: {fileID: 7819418557016913240, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
@@ -3426,11 +3426,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 331826918}
     m_Modifications:
-    - target: {fileID: 7819418557016913242, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
-        type: 3}
-      propertyPath: m_Name
-      value: inimigo_reta_ziguezagueH_parado (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 7819418557016913241, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3485,6 +3480,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819418557016913242, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
+        type: 3}
+      propertyPath: m_Name
+      value: inimigo_reta_ziguezagueH_parado (4)
       objectReference: {fileID: 0}
     - target: {fileID: 7819418557016913240, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
@@ -4250,11 +4250,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 94832636}
     m_Modifications:
-    - target: {fileID: 7819418557016913242, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
-        type: 3}
-      propertyPath: m_Name
-      value: inimigo_reta_ziguezagueH_parado (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 7819418557016913241, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4309,6 +4304,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819418557016913242, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
+        type: 3}
+      propertyPath: m_Name
+      value: inimigo_reta_ziguezagueH_parado (5)
       objectReference: {fileID: 0}
     - target: {fileID: 7819418557016913240, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
@@ -5167,11 +5167,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 94832636}
     m_Modifications:
-    - target: {fileID: 7819418557016913242, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
-        type: 3}
-      propertyPath: m_Name
-      value: inimigo_reta_ziguezagueH_parado (7)
-      objectReference: {fileID: 0}
     - target: {fileID: 7819418557016913241, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5226,6 +5221,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819418557016913242, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
+        type: 3}
+      propertyPath: m_Name
+      value: inimigo_reta_ziguezagueH_parado (7)
       objectReference: {fileID: 0}
     - target: {fileID: 7819418557016913240, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
@@ -5387,63 +5387,63 @@ PrefabInstance:
       propertyPath: m_Name
       value: fileirinha reta p baixo (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6738752773792433718, guid: e83a6ac9a79e8c1478ae823df4128618,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 574632209}
+    - target: {fileID: 6738752773792433718, guid: e83a6ac9a79e8c1478ae823df4128618,
+        type: 3}
+      propertyPath: previsualizar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6738752774451915707, guid: e83a6ac9a79e8c1478ae823df4128618,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 574632209}
+    - target: {fileID: 6738752774451915707, guid: e83a6ac9a79e8c1478ae823df4128618,
+        type: 3}
+      propertyPath: previsualizar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6738752774680435501, guid: e83a6ac9a79e8c1478ae823df4128618,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 574632209}
+    - target: {fileID: 6738752774680435501, guid: e83a6ac9a79e8c1478ae823df4128618,
+        type: 3}
+      propertyPath: previsualizar
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 44636375806376923, guid: e83a6ac9a79e8c1478ae823df4128618,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300002, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
-    - target: {fileID: 6738752773792433718, guid: e83a6ac9a79e8c1478ae823df4128618,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 574632209}
-    - target: {fileID: 6738752773792433718, guid: e83a6ac9a79e8c1478ae823df4128618,
-        type: 3}
-      propertyPath: previsualizar
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 44636376453224022, guid: e83a6ac9a79e8c1478ae823df4128618,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300004, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
-    - target: {fileID: 6738752774451915707, guid: e83a6ac9a79e8c1478ae823df4128618,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 574632209}
-    - target: {fileID: 6738752774451915707, guid: e83a6ac9a79e8c1478ae823df4128618,
-        type: 3}
-      propertyPath: previsualizar
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 44636376694335168, guid: e83a6ac9a79e8c1478ae823df4128618,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300002, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
-    - target: {fileID: 6738752774680435501, guid: e83a6ac9a79e8c1478ae823df4128618,
+    - target: {fileID: 44636376694335169, guid: e83a6ac9a79e8c1478ae823df4128618,
         type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 574632209}
-    - target: {fileID: 6738752774680435501, guid: e83a6ac9a79e8c1478ae823df4128618,
-        type: 3}
-      propertyPath: previsualizar
-      value: 0
+      propertyPath: m_LocalPosition.x
+      value: -0.85
       objectReference: {fileID: 0}
     - target: {fileID: 44636376453224023, guid: e83a6ac9a79e8c1478ae823df4128618,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 44636376694335169, guid: e83a6ac9a79e8c1478ae823df4128618,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.85
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e83a6ac9a79e8c1478ae823df4128618, type: 3}
@@ -6356,11 +6356,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 331826918}
     m_Modifications:
-    - target: {fileID: 7819418557016913242, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
-        type: 3}
-      propertyPath: m_Name
-      value: inimigo_reta_ziguezagueH_parado (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 7819418557016913241, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6415,6 +6410,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819418557016913242, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
+        type: 3}
+      propertyPath: m_Name
+      value: inimigo_reta_ziguezagueH_parado (3)
       objectReference: {fileID: 0}
     - target: {fileID: 7819418557016913240, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
@@ -6934,11 +6934,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 331826918}
     m_Modifications:
-    - target: {fileID: 7819418557016913242, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
-        type: 3}
-      propertyPath: m_Name
-      value: inimigo_reta_ziguezagueH_parado (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 7819418557016913241, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6993,6 +6988,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819418557016913242, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
+        type: 3}
+      propertyPath: m_Name
+      value: inimigo_reta_ziguezagueH_parado (5)
       objectReference: {fileID: 0}
     - target: {fileID: 7819418557016913240, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
@@ -7762,7 +7762,7 @@ PrefabInstance:
     - target: {fileID: 7744319854982131183, guid: e15ca46733368f143b68740c0bddbe49,
         type: 3}
       propertyPath: evt.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: set_enabled
+      value: EntrarEmPergunta
       objectReference: {fileID: 0}
     - target: {fileID: 7744319854982131183, guid: e15ca46733368f143b68740c0bddbe49,
         type: 3}
@@ -7803,6 +7803,11 @@ PrefabInstance:
         type: 3}
       propertyPath: evt.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
       value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744319854982131183, guid: e15ca46733368f143b68740c0bddbe49,
+        type: 3}
+      propertyPath: evt.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7744319854431860199, guid: e15ca46733368f143b68740c0bddbe49,
         type: 3}
@@ -8536,11 +8541,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2098990059}
     m_Modifications:
-    - target: {fileID: 7819418557016913242, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
-        type: 3}
-      propertyPath: m_Name
-      value: inimigo_reta_ziguezagueH_parado (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 7819418557016913241, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8595,6 +8595,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819418557016913242, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
+        type: 3}
+      propertyPath: m_Name
+      value: inimigo_reta_ziguezagueH_parado (9)
       objectReference: {fileID: 0}
     - target: {fileID: 7819418557016913240, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
@@ -9117,6 +9122,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2098990059}
     m_Modifications:
+    - target: {fileID: 1461999979267348922, guid: 4a9f3720ba9d2df45a174439614c7fdc,
+        type: 3}
+      propertyPath: m_Name
+      value: inimigo_ziguezagueHV_parado
+      objectReference: {fileID: 0}
     - target: {fileID: 1461999979267348921, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9172,27 +9182,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1461999979267348922, guid: 4a9f3720ba9d2df45a174439614c7fdc,
-        type: 3}
-      propertyPath: m_Name
-      value: inimigo_ziguezagueHV_parado
-      objectReference: {fileID: 0}
     - target: {fileID: 1461999979267348920, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300004, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
-    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 574632209}
     - target: {fileID: 1461999979267348923, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: prever_Tamanho
       value: 60
       objectReference: {fileID: 0}
+    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 574632209}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a9f3720ba9d2df45a174439614c7fdc, type: 3}
 --- !u!4 &1838823138 stripped
@@ -9534,11 +9539,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2098990059}
     m_Modifications:
-    - target: {fileID: 7819418557016913242, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
-        type: 3}
-      propertyPath: m_Name
-      value: inimigo_reta_ziguezagueH_parado (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 7819418557016913241, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9593,6 +9593,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819418557016913242, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
+        type: 3}
+      propertyPath: m_Name
+      value: inimigo_reta_ziguezagueH_parado (10)
       objectReference: {fileID: 0}
     - target: {fileID: 7819418557016913240, guid: a3ed54dbdc2115f4ea58410cdeef77f8,
         type: 3}
@@ -9940,6 +9945,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2098990059}
     m_Modifications:
+    - target: {fileID: 1461999979267348922, guid: 4a9f3720ba9d2df45a174439614c7fdc,
+        type: 3}
+      propertyPath: m_Name
+      value: inimigo_ziguezagueHV_parado (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 1461999979267348921, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9995,27 +10005,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1461999979267348922, guid: 4a9f3720ba9d2df45a174439614c7fdc,
-        type: 3}
-      propertyPath: m_Name
-      value: inimigo_ziguezagueHV_parado (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 1461999979267348920, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300004, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
-    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 574632209}
     - target: {fileID: 1461999979267348923, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: prever_Tamanho
       value: 60
       objectReference: {fileID: 0}
+    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 574632209}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a9f3720ba9d2df45a174439614c7fdc, type: 3}
 --- !u!1001 &1960807648
@@ -10025,6 +10030,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1819152790}
     m_Modifications:
+    - target: {fileID: 1461999979267348922, guid: 4a9f3720ba9d2df45a174439614c7fdc,
+        type: 3}
+      propertyPath: m_Name
+      value: inimigo_ziguezagueHV_parado (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 1461999979267348921, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10080,22 +10090,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1461999979267348922, guid: 4a9f3720ba9d2df45a174439614c7fdc,
-        type: 3}
-      propertyPath: m_Name
-      value: inimigo_ziguezagueHV_parado (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 1461999979267348920, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
-    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 574632209}
     - target: {fileID: 1461999979267348923, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: prever_Tamanho
@@ -10116,6 +10116,11 @@ PrefabInstance:
       propertyPath: aceleracaoMovimentoX
       value: 1.72
       objectReference: {fileID: 0}
+    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 574632209}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a9f3720ba9d2df45a174439614c7fdc, type: 3}
 --- !u!1001 &1972913782
@@ -10696,6 +10701,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2098990059}
     m_Modifications:
+    - target: {fileID: 1461999979267348922, guid: 4a9f3720ba9d2df45a174439614c7fdc,
+        type: 3}
+      propertyPath: m_Name
+      value: inimigo_ziguezagueHV_parado (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 1461999979267348921, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10751,22 +10761,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1461999979267348922, guid: 4a9f3720ba9d2df45a174439614c7fdc,
-        type: 3}
-      propertyPath: m_Name
-      value: inimigo_ziguezagueHV_parado (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1461999979267348920, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 11c35a329223c0c47a9b20d4cd34cb90,
         type: 3}
-    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
-        type: 3}
-      propertyPath: alvo_tr
-      value: 
-      objectReference: {fileID: 574632209}
     - target: {fileID: 1461999979267348923, guid: 4a9f3720ba9d2df45a174439614c7fdc,
         type: 3}
       propertyPath: prever_Tamanho
@@ -10787,6 +10787,11 @@ PrefabInstance:
       propertyPath: aceleracaoMovimentoX
       value: 1.72
       objectReference: {fileID: 0}
+    - target: {fileID: 5282825998674928725, guid: 4a9f3720ba9d2df45a174439614c7fdc,
+        type: 3}
+      propertyPath: alvo_tr
+      value: 
+      objectReference: {fileID: 574632209}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a9f3720ba9d2df45a174439614c7fdc, type: 3}
 --- !u!4 &2029521587 stripped

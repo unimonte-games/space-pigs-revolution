@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 public class GerenciadorJogo : MonoBehaviour
 {
     public bool pausado,
-                fimDeJogo;
+                fimDeJogo,
+                emPergunta;
 
     public int pergsRespondidas;
 

@@ -90,6 +90,12 @@ public class InstanciadorPerguntas : MonoBehaviour
 
     public void TornarSeVisivel()
     {
+        FindObjectOfType<GerenciadorJogo>().emPergunta = true;
+
+        var tiros = GameObject.FindGameObjectsWithTag("Tiro");
+        for (int i = tiros.Length-1; i >= 0; i--)
+            Destroy(tiros[i]);
+
         visivel = true;
     }
 
@@ -99,5 +105,6 @@ public class InstanciadorPerguntas : MonoBehaviour
 
         img_piggy_feliz.enabled  =  respostaCerta;
         img_piggy_triste.enabled = !respostaCerta;
+
     }
 }

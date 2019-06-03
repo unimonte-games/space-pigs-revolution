@@ -5647,6 +5647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pausado: 0
   fimDeJogo: 0
+  emPergunta: 0
   pergsRespondidas: 0
 --- !u!114 &2010931026
 MonoBehaviour:

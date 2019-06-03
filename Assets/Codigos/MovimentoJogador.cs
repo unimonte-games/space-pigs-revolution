@@ -72,6 +72,6 @@ public class MovimentoJogador : MonoBehaviour
 
     public void EntrarEmPergunta()
     {
-      numaPergunta = true;
+        numaPergunta = true;
     }
 }
