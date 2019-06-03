@@ -1,12 +1,27 @@
 fileFormatVersion: 2
 guid: 5c46c9c7726d5e8429e1f70d8eece6b0
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Piggy_0
-    21300002: Piggy_1
-    21300004: Piggy_2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Piggy_0
+  - first:
+      213: 21300002
+    second: Piggy_1
+  - first:
+      213: 21300004
+    second: Piggy_2
+  - first:
+      213: -9127940884589406904
+    second: Piggy_3
+  - first:
+      213: 1263247217910862434
+    second: Piggy_4
+  - first:
+      213: 8653159008778590348
+    second: Piggy_5
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -45,7 +60,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 256
@@ -61,7 +76,7 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -72,7 +87,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -83,6 +99,19 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -90,8 +119,8 @@ TextureImporter:
       name: Piggy_0
       rect:
         serializedVersion: 2
-        x: 112
-        y: 406
+        x: 24
+        y: 405
         width: 432
         height: 350
       alignment: 0
@@ -101,7 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcefd75500f508e4bad1c2e106c8ce36
+      spriteID: 5bf252e1bee0ad943a3b3bb52963f790
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -110,10 +140,10 @@ TextureImporter:
       name: Piggy_1
       rect:
         serializedVersion: 2
-        x: 793
-        y: 390
-        width: 451
-        height: 366
+        x: 462
+        y: 197
+        width: 432
+        height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,7 +151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fd5cce029f3aa44da2741cec38d3f47
+      spriteID: f33e5bc1fdc42ae47abac33b64c98d9a
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -130,10 +161,10 @@ TextureImporter:
       name: Piggy_2
       rect:
         serializedVersion: 2
-        x: 450
-        y: 32
-        width: 456
-        height: 362
+        x: 905
+        y: 386
+        width: 451
+        height: 367
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,7 +172,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b44f662d1bc038b418da11a7d44544a4
+      spriteID: 4fb05dc4a25cf814eabbb6a734b447ea
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_3
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 13
+        width: 432
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407bde07623bfbd4b934437555aaf1a2
+      internalID: -9127940884589406904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_4
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 92
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b44cfd6be82d09458da044f09e6f285
+      internalID: 1263247217910862434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_5
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 25
+        width: 456
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29493f581b8d66645980134cb5b64eda
+      internalID: 8653159008778590348
       vertices: []
       indices: 
       edges: []
@@ -150,10 +245,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 857a8719e38c1c64a9dc7a353df2d70a
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

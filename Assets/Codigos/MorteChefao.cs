@@ -46,14 +46,18 @@ public class MorteChefao : MonoBehaviour
 
         j_anim.SetTrigger("Rodopio");
 
+        transform
+            .Find("sprite")
+            .Find("fumaca")
+            .GetComponent<ParticleSystem>()
+            .Play();
+
         yield return new WaitForSeconds(1.6f);
 
         var pntr = GameObject
             .Find("Canvas FinalChefao")
             .GetComponent<Transform>()
             .GetChild(0);
-
-
 
         pntr.GetComponent<PnTween>().Alternar(true);
         pntr.GetChild(0).GetComponent<Button>().interactable = true;

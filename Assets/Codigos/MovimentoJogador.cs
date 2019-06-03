@@ -9,30 +9,26 @@ public class MovimentoJogador : MonoBehaviour
     GerenciadorJogo gerenJogo;
     DiarioBt diarioBt;
 
+    float posDest_x, posDest_y;
+
     bool numaPergunta;
 
-    float ObtemPosicaoX(float antes)
+    float tween;
+
+    float ObtemPosicaoX()
     {
-        if (Input.GetMouseButton(0))
-            return Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
-        else
-            return antes;
+        return Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
     }
 
-    Vector3 ObtemPosicaoVertical(Vector3 antes)
+    float ObtemPosicaoY()
     {
-        if (Input.GetMouseButton(0))
-        {
-            //return Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
-            var camPos = Camera.main.transform.position;
-            var ponteiroPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        //return Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
+        var camPos = Camera.main.transform.position;
+        var ponteiroPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-            var diffPos = ponteiroPos - camPos;
+        var diffPos = ponteiroPos - camPos;
 
-            return camPos + diffPos;
-        }
-        else
-            return antes;
+        return camPos.y + diffPos.y;
     }
 
     void Awake()
@@ -47,17 +43,28 @@ public class MovimentoJogador : MonoBehaviour
         if (gerenJogo.pausado)
             return;
 
-        var pos = tr.position;
+        if (Input.GetMouseButtonDown(0))
+            tween = 0;
 
+        tween = Mathf.Clamp01(tween + Time.deltaTime*4f);
 
-        if (!numaPergunta && !diarioBt.mouseEmCima)
+        if (!numaPergunta && !diarioBt.mouseEmCima && Input.GetMouseButton(0))
         {
-          pos.x = ObtemPosicaoX(pos.x);
-            pos = ObtemPosicaoVertical(pos);
+            posDest_x = ObtemPosicaoX();
+            posDest_y = ObtemPosicaoY();
         }
+    }
 
-        pos.y += velY * Time.deltaTime;
+    void FixedUpdate()
+    {
+        if (gerenJogo.pausado)
+            return;
 
+        var pos = tr.position;
+        posDest_y += velY * Time.deltaTime;
+
+        pos.x = Mathf.Lerp(pos.x, posDest_x, tween);
+        pos.y = Mathf.Lerp(pos.y, posDest_y, tween);
         pos.z = 0;
 
         tr.position = pos;
