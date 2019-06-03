@@ -4,22 +4,16 @@
 
     static readonly Pergunta[] perguntas = {
         new Pergunta(
-/*
-[--------------]*/
-@"Qual é o menor
- planeta do
- sistema solar?",
+            "Qual é o menor planeta do sistema solar?",
             0, new string [QTD_ALTERNATIVAS] {
-            "Mercúrio",
-            "Plutão",
-            "Júpiter",
-            "Saturno"
+                "Mercúrio",
+                "Plutão",
+                "Júpiter",
+                "Saturno"
         }),
 
         new Pergunta(
-@"Qual é o maior
-Planeta do
-sistema solar ",
+            "Qual é o maior Planeta do sistema solar?",
             2, new string [QTD_ALTERNATIVAS] {
             "Mercúrio",
             "Plutão",
@@ -28,9 +22,7 @@ sistema solar ",
         }),
 
         new Pergunta(
-@" Qual o planeta
- mais longe do sol?",
-
+            "Qual o planeta mais longe do sol?",
             2, new string [QTD_ALTERNATIVAS] {
             "Mercúrio",
             "Vênus",
@@ -39,7 +31,7 @@ sistema solar ",
         }),
 
         new Pergunta(
-@" O que é o sol",
+            "O que é o sol?",
             3, new string [QTD_ALTERNATIVAS] {
             "Planeta",
             "Meteoro",
@@ -48,9 +40,7 @@ sistema solar ",
         }),
 
         new Pergunta(
-@" Qual o planeta
-mais frio do
- sistema solar?",
+            "Qual o planeta mais frio do sistema solar?",
             1, new string [QTD_ALTERNATIVAS] {
             "Mercúrio",
             "Netuno",
@@ -59,9 +49,7 @@ mais frio do
         }),
 
         new Pergunta(
-@" Qual o planeta
-mais quente do
- sistema solar",
+            "Qual o planeta mais quente do sistema solar?",
             2, new string [QTD_ALTERNATIVAS] {
             "Mercúrio",
             "Plutão",
@@ -70,10 +58,7 @@ mais quente do
         }),
 
         new Pergunta(
-@" Quantos
-satélites
- naturais a Terra
- possui?",
+            "Quantos satélites naturais a Terra possui?",
             2, new string [QTD_ALTERNATIVAS] {
             "Zero",
             "Cinco",
@@ -82,7 +67,7 @@ satélites
         }),
 
         new Pergunta(
-@" O que é a Lua?",
+            "O que é a Lua?",
             0, new string [QTD_ALTERNATIVAS] {
             "Satélite Natural",
             "Estrela",
@@ -91,8 +76,7 @@ satélites
         }),
 
         new Pergunta(
-@" Qual planeta(s)
-possuí(em) anéis?",
+            "Qual(is) planeta(s) possuí(em) anéis?",
             0, new string [QTD_ALTERNATIVAS] {
             "Júpiter, Urano, Saturno e Netuno",
             "Júpiter, lua e Netuno",
@@ -101,9 +85,7 @@ possuí(em) anéis?",
          }),
 
         new Pergunta(
-@" Qual o planeta
- mais próximo
-da Terra?",
+            "Qual o planeta mais próximo da Terra?",
             3, new string [QTD_ALTERNATIVAS] {
             "Mercúrio",
             "Plutão",
@@ -112,9 +94,7 @@ da Terra?",
         }),
 
         new Pergunta(
-@" Quantos
-planetas
- existem? ",
+            "Quantos planetas existem?",
             1, new string [QTD_ALTERNATIVAS] {
             "Dez",
             "Oito",
@@ -123,12 +103,7 @@ planetas
         }),
 
         new Pergunta(
-@" Quanto tempo a
- Terra leva para
-fazer a
-translação
-(Girar em torno
-do sol)",
+            "Quanto tempo a Terra leva para fazer a translação (Girar em torno do sol)?",
             3, new string [QTD_ALTERNATIVAS] {
             "Um hora",
             "Trezentos dias",
@@ -137,10 +112,7 @@ do sol)",
         }),
 
         new Pergunta(
-@" Quanto tempo a
-Terra leva para
- fazer a rotação
-(Girar)? ",
+            "Quanto tempo a Terra leva para fazer a rotação (Girar)?",
             2, new string [QTD_ALTERNATIVAS] {
             "Cinco horas",
             "Vinte horas",
@@ -149,8 +121,7 @@ Terra leva para
         }),
 
         new Pergunta(
-@" 75% da Terra é
- composta de?",
+            "75% da Terra é composta de?",
             0, new string [QTD_ALTERNATIVAS] {
             "Água",
             "Terra",
@@ -159,9 +130,7 @@ Terra leva para
         }),
 
         new Pergunta(
-@" Qual planeta
- é conhecido
-pelos seus anéis?",
+            "Qual planeta é conhecido pelos seus anéis?",
             3, new string [QTD_ALTERNATIVAS] {
             "Mercúrio",
             "Plutão",
@@ -170,9 +139,7 @@ pelos seus anéis?",
         }),
 
         new Pergunta(
-@" Qual é o planeta
-conhecido como
- vermelho?",
+            "Qual é o planeta conhecido como vermelho?",
             3, new string [QTD_ALTERNATIVAS] {
             "Mercúrio",
             "Plutão",
@@ -181,9 +148,7 @@ conhecido como
         }),
 
         new Pergunta(
-@" Qual o único
- planeta que gira
-de lado?",
+            "Qual o único planeta que gira de lado?",
             2, new string [QTD_ALTERNATIVAS] {
             "Lua",
             "Terra",
@@ -192,8 +157,7 @@ de lado?",
         }),
 
         new Pergunta(
-@" Vênus é
- composto de?",
+            "Vênus é composto de?",
             2, new string [QTD_ALTERNATIVAS] {
             "Pedras",
             "Água",
@@ -202,10 +166,7 @@ de lado?",
         }),
 
         new Pergunta(
-@" Marte possui
- quantos
- satélites
-naturais?",
+            "Marte possui quantos satélites naturais?",
             0, new string [QTD_ALTERNATIVAS] {
             "Dois",
             "Cinco",
@@ -214,9 +175,7 @@ naturais?",
         }),
 
         new Pergunta(
-@"Qual o planeta
-mais próximo
- ao sol?",
+            "Qual o planeta mais próximo ao sol?",
             0, new string [QTD_ALTERNATIVAS] {
             "Mercúrio",
             "Plutão",
@@ -225,20 +184,27 @@ mais próximo
         }),
     };
 
+    public static int perguntasRespondidas = 0;
 
     public static Pergunta ObterPergunta()
     {
-        Pergunta p = ObterPerguntaAleatoria();
+        bool jaRespondida = true;
+        int p_bit_i = 0;
+        int i = 0;
 
-        while (p.jaRespondida)
-            p = ObterPerguntaAleatoria();
+        while (jaRespondida)
+        {
+            i = UnityEngine.Random.Range(0, perguntas.Length);
+            p_bit_i = 1 << i;
+            jaRespondida = (perguntasRespondidas & p_bit_i) == p_bit_i;
+        }
 
-        return p;
+        perguntasRespondidas = perguntasRespondidas | p_bit_i;
+        return perguntas[i];
     }
 
-    static Pergunta ObterPerguntaAleatoria()
+    public static void ZerarPerguntasRespondidas()
     {
-        int i = UnityEngine.Random.Range(0, perguntas.Length);
-        return perguntas[i];
+        perguntasRespondidas = 0;
     }
 }

@@ -7,6 +7,7 @@ public class SistemaPerguntas : MonoBehaviour
     public UnityEngine.Events.UnityEvent aoResponder;
 
     Pergunta perguntaEmUso;
+    public bool certo;
 
     public void DefinirPerguntaEmUso(Pergunta p)
     {
@@ -32,5 +33,7 @@ public class SistemaPerguntas : MonoBehaviour
 
         // dar uma vida a mais
         VidaMaxJogador.vidaMax++;
+
+        certo = true;
     }
 }
