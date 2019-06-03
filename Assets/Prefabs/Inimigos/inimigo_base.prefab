@@ -69,6 +69,7 @@ GameObject:
   - component: {fileID: 3021231105149211098}
   - component: {fileID: 4412224111786963799}
   - component: {fileID: 4572183668569696700}
+  - component: {fileID: -5962886138926928026}
   m_Layer: 0
   m_Name: inimigo_base
   m_TagString: Inimigo
@@ -468,3 +469,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &-5962886138926928026
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9096505094161098692}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ecea0ed8c6a9bc742b76cdec42abd3aa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

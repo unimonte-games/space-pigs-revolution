@@ -10,12 +10,12 @@ PrefabInstance:
     - target: {fileID: 9096505094161098695, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098695, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16
+      value: 13.5
       objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098695, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
@@ -65,12 +65,7 @@ PrefabInstance:
     - target: {fileID: 9096505094161098692, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: m_Name
-      value: inimigo_pulos_pdir (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4336981715215845348, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: vida
-      value: 5
+      value: inimigo_pulos_pdir (2)
       objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098694, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
@@ -81,7 +76,7 @@ PrefabInstance:
     - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
       propertyPath: movimentoX
-      value: 1.46
+      value: 1.9
       objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
@@ -102,11 +97,6 @@ PrefabInstance:
         type: 3}
       propertyPath: intensidadeEfeito.y
       value: -3
-      objectReference: {fileID: 0}
-    - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
-        type: 3}
-      propertyPath: aceleracaoMovimentoX
-      value: 0.22
       objectReference: {fileID: 0}
     - target: {fileID: 9096505094161098693, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
@@ -132,6 +122,11 @@ PrefabInstance:
         type: 3}
       propertyPath: prever_Cor.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336981715215845348, guid: 5f9aba78367b63d419c5f9605398913c,
+        type: 3}
+      propertyPath: vida
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2686312241316230220, guid: 5f9aba78367b63d419c5f9605398913c,
         type: 3}
