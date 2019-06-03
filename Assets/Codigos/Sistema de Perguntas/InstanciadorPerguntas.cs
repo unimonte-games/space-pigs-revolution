@@ -15,6 +15,8 @@ public class InstanciadorPerguntas : MonoBehaviour
     Transform tr;
     RectTransform rtr;
 
+    Image img_piggy_feliz, img_piggy_triste;
+
     bool visivel;
     float t;
     const float velT = 0.22f;
@@ -39,6 +41,19 @@ public class InstanciadorPerguntas : MonoBehaviour
             var alternativaNome = string.Concat("Txt Alternativa ", letrasAlternativas[i]);
             alternativasTxts[i] = tr_alternativas.Find(alternativaNome).GetComponent<Text>();
         }
+
+        img_piggy_feliz = tr
+            .Find("pn respondeu")
+            .Find("img piggy feliz")
+            .GetComponent<Image>();
+
+        img_piggy_triste = tr
+            .Find("pn respondeu")
+            .Find("img piggy triste")
+            .GetComponent<Image>();
+
+        img_piggy_feliz.enabled = false;
+        img_piggy_triste.enabled = false;
     }
 
     void Start()
@@ -76,5 +91,13 @@ public class InstanciadorPerguntas : MonoBehaviour
     public void TornarSeVisivel()
     {
         visivel = true;
+    }
+
+    public void MudarPiggy()
+    {
+        bool respostaCerta = GetComponent<SistemaPerguntas>().certo;
+
+        img_piggy_feliz.enabled  =  respostaCerta;
+        img_piggy_triste.enabled = !respostaCerta;
     }
 }
