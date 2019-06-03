@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2133325920149619955}
   - component: {fileID: 8856785587281069480}
   - component: {fileID: 2655193459130871593}
+  - component: {fileID: 7852096775398689943}
   m_Layer: 5
   m_Name: Bt Prosseguir
   m_TagString: Untagged
@@ -241,6 +242,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7852096775398689943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527185979592156376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b96dcb51259cce349a478d9c83da973b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEfeitoSonoro: 1
 --- !u!1 &2590561857785471382
 GameObject:
   m_ObjectHideFlags: 0
@@ -585,6 +599,7 @@ GameObject:
   - component: {fileID: 3987125066541602727}
   - component: {fileID: 1775838435}
   - component: {fileID: 6551265028054203974}
+  - component: {fileID: 8373425283155762763}
   m_Layer: 5
   m_Name: Img Resposta B
   m_TagString: Untagged
@@ -814,6 +829,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8373425283155762763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3987125066541602729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b96dcb51259cce349a478d9c83da973b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEfeitoSonoro: 1
 --- !u!1 &3987125066615365213
 GameObject:
   m_ObjectHideFlags: 0
@@ -827,6 +855,7 @@ GameObject:
   - component: {fileID: 3987125066615365211}
   - component: {fileID: 1775838434}
   - component: {fileID: 8824278022010429397}
+  - component: {fileID: 7760582307304051458}
   m_Layer: 5
   m_Name: Img Resposta C
   m_TagString: Untagged
@@ -1056,6 +1085,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7760582307304051458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3987125066615365213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b96dcb51259cce349a478d9c83da973b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEfeitoSonoro: 1
 --- !u!1 &3987125066822350591
 GameObject:
   m_ObjectHideFlags: 0
@@ -1069,6 +1111,7 @@ GameObject:
   - component: {fileID: 3987125066822350589}
   - component: {fileID: 1775838433}
   - component: {fileID: 3024004192047079100}
+  - component: {fileID: 7702895185765683469}
   m_Layer: 5
   m_Name: Img Resposta D
   m_TagString: Untagged
@@ -1298,6 +1341,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7702895185765683469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3987125066822350591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b96dcb51259cce349a478d9c83da973b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEfeitoSonoro: 1
 --- !u!1 &3987125066828668523
 GameObject:
   m_ObjectHideFlags: 0
@@ -1783,8 +1839,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   alternativaPrefab: {fileID: 6410715670938713459, guid: df7cbb2f41c0cdf41a2cd75304207a31,
     type: 3}
-  piggyTriste: {fileID: 21300002, guid: 5c46c9c7726d5e8429e1f70d8eece6b0, type: 3}
-  piggyFeliz: {fileID: 21300000, guid: 5c46c9c7726d5e8429e1f70d8eece6b0, type: 3}
   curva:
     serializedVersion: 2
     m_Curve:
@@ -2043,6 +2097,7 @@ GameObject:
   - component: {fileID: 3987125067525829664}
   - component: {fileID: 1775838436}
   - component: {fileID: 6801501137766521980}
+  - component: {fileID: 3368907636234879432}
   m_Layer: 5
   m_Name: Img Resposta A
   m_TagString: Untagged
@@ -2272,6 +2327,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3368907636234879432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3987125067525829666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b96dcb51259cce349a478d9c83da973b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEfeitoSonoro: 1
 --- !u!1 &3987125067596000644
 GameObject:
   m_ObjectHideFlags: 0

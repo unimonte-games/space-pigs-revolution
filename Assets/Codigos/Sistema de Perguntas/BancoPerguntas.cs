@@ -112,7 +112,7 @@
         }),
 
         new Pergunta(
-            "Quanto tempo a Terra leva para fazer a rotação (Girar)?",
+            "Quanto tempo a Terra leva para fazer a rotação (Gira em torno de si mesma)?",
             2, new string [QTD_ALTERNATIVAS] {
             "Cinco horas",
             "Vinte horas",

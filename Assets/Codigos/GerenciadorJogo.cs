@@ -9,6 +9,9 @@ public class GerenciadorJogo : MonoBehaviour
                 fimDeJogo,
                 emPergunta;
 
+    public static bool musicaMudo = true;
+    public static bool efsonsMudo = true;
+
     public int pergsRespondidas;
 
     void Start()
@@ -31,5 +34,15 @@ public class GerenciadorJogo : MonoBehaviour
         fimDeJogo = def;
         if (def)
             pausado = true;
+    }
+
+    public void DefMudoMusica(bool def)
+    {
+        musicaMudo = def;
+    }
+
+    public void DefEfSonsMusica(bool def)
+    {
+        efsonsMudo = def;
     }
 }

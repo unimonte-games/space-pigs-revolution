@@ -68,4 +68,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Cenas/Chefoes/Chefao 04.unity
     guid: bd12c3d242b8bae4fabaff4af59dd65c
+  - enabled: 1
+    path: Assets/Cenas/VenceuJogo.unity
+    guid: a997e4233e8588649b26e8d050cc3913
   m_configObjects: {}

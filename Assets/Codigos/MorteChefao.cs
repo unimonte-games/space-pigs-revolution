@@ -60,6 +60,6 @@ public class MorteChefao : MonoBehaviour
             .GetChild(0);
 
         pntr.GetComponent<PnTween>().Alternar(true);
-        pntr.GetChild(0).GetComponent<Button>().interactable = true;
+        pntr.GetChild(1).GetComponent<Button>().interactable = true;
     }
 }

@@ -15,7 +15,7 @@ public class AumentaSpriteHeight : MonoBehaviour
     void Update()
     {
         var s = spr.size;
-        s.y += 1 * Time.deltaTime;
+        s.y = Mathf.Sin(Time.time/5)*5 + 30;
         spr.size  = s;
     }
 }
