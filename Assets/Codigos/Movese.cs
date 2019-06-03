@@ -16,7 +16,7 @@ public class Movese : MonoBehaviour
         tr = GetComponent<Transform>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (gerenJogo.pausado)
             return;
