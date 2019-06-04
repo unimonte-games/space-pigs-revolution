@@ -4832,6 +4832,7 @@ GameObject:
   - component: {fileID: 4412224111786963799}
   - component: {fileID: 4572183668569696700}
   - component: {fileID: -5962886138926928026}
+  - component: {fileID: 5157519010698074138}
   m_Layer: 0
   m_Name: inimigo_base
   m_TagString: Inimigo
@@ -5251,3 +5252,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5157519010698074138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9096505094161098692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b96dcb51259cce349a478d9c83da973b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEfeitoSonoro: 1

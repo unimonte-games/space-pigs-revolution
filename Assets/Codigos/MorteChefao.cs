@@ -41,11 +41,6 @@ public class MorteChefao : MonoBehaviour
 
     IEnumerator co()
     {
-        var jogador = GameObject.FindWithTag("Player");
-        var j_anim = jogador.GetComponent<Animator>();
-
-        j_anim.SetTrigger("Rodopio");
-
         transform
             .Find("sprite")
             .Find("fumaca")

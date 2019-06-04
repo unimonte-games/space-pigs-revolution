@@ -4940,6 +4940,7 @@ GameObject:
   - component: {fileID: 8167085670056793773}
   - component: {fileID: 4138217013815177179}
   - component: {fileID: 2766744385351625294}
+  - component: {fileID: 4857203004036211527}
   m_Layer: 0
   m_Name: Chefao_base
   m_TagString: Inimigo
@@ -5253,6 +5254,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4857203004036211527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4503896110424293435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b96dcb51259cce349a478d9c83da973b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEfeitoSonoro: 1
 --- !u!1 &5164060978223524622
 GameObject:
   m_ObjectHideFlags: 0

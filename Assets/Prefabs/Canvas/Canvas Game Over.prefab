@@ -189,7 +189,7 @@ GameObject:
   - component: {fileID: 1970454676}
   - component: {fileID: 7004252213519879178}
   - component: {fileID: 4791392345951196575}
-  - component: {fileID: 4448815743243820524}
+  - component: {fileID: 1341680339735649837}
   m_Layer: 5
   m_Name: Bt Menu
   m_TagString: Untagged
@@ -212,8 +212,8 @@ RectTransform:
   m_Father: {fileID: 5918601037998164844}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.1, y: 0.3}
-  m_AnchorMax: {x: 0.9, y: 0.5}
+  m_AnchorMin: {x: 0.35, y: 0.3}
+  m_AnchorMax: {x: 0.65, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -444,7 +444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEfeitoSonoro: 1
---- !u!114 &4448815743243820524
+--- !u!114 &1341680339735649837
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -456,8 +456,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AspectMode: 2
-  m_AspectRatio: 1
+  m_AspectMode: 1
+  m_AspectRatio: 1.1
 --- !u!1 &5392280614113737036
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,8 +572,8 @@ RectTransform:
   m_Father: {fileID: 5392280613539931636}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.55, y: 0}
+  m_AnchorMax: {x: 0.45, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
