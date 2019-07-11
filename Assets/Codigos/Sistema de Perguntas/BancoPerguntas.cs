@@ -94,7 +94,7 @@
         }),
 
         new Pergunta(
-            "Quantos planetas existem?",
+            "Quantos planetas existem no sistema solar?",
             1, new string [QTD_ALTERNATIVAS] {
             "Dez",
             "Oito",
