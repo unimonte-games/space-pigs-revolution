@@ -1,23 +1,25 @@
-Programação
+# Créditos
+
+## Programação
 André L. Alvares
 
-Composição e Produção da Cinemática
+## Composição e Produção da Cinemática
 Augusto Alves de Lima Neto
 
-Ilustração
+## Ilustração
 Aurora de Carvalho Inácio
 
-Desenho dos Níveis
+## Desenho dos Níveis
 Nicolas de Souza Andalaft
 
-Pesquisa e produção da cinemática
+## Pesquisa e produção da cinemática
 Murilo dos Santos Ferraz
 
-Agradecimentos especiais e primeiros design de níveis
+## Agradecimentos especiais e primeiros design de níveis
 Ygo dos Santos Lima
 Matheus Verginassi Leque
 
-Atribuições
+## Atribuições
 Clash Defiant e Magic Scout Cottages, de Kevin MacLeod (incompetech.com)
 
 Licenciados sob Creative Commmons: By Attribution 3.0 License
