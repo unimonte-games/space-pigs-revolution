@@ -6,10 +6,10 @@ André L. Alvares
 ## Composição e Produção da Cinemática
 Augusto Alves de Lima Neto
 
-## Ilustração
+## Ilustração e UI
 Aurora de Carvalho Inácio
 
-## Desenho dos Níveis
+## Level Design
 Nicolas de Souza Andalaft
 
 ## Pesquisa e produção da cinemática
